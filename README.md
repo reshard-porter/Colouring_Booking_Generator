@@ -4,8 +4,6 @@
 
 Coloring Book Studio is a local app that turns a book idea into a KDP-ready coloring book. Import one brief file, pick a kid-friendly style, and OpenAI draws every page, intro page and cover. The app cleans the line art, lays out pages, sizes the cover, checks print rules, and exports interior and cover PDFs with a listing draft and AI disclosure.
 
-A local-first app for making original cartoon-style **coloring books** and preparing them for **Amazon KDP paperback** print-on-demand. You plan a book, import (or optionally generate) line art, edit and arrange pages, design a full-wrap cover, run preflight checks, and download a publishing package (interior PDF, cover PDF, previews, listing draft, checklist) that **you** review and upload to KDP yourself.
-
 - Works with **no subscription and no AI key**: import → edit → layout → cover → preflight → export all run offline after installation.
 - Binds to **localhost only**. No accounts, no analytics, nothing leaves your computer unless you use optional AI generation.
 - Does **not** talk to Amazon. There is no public KDP publishing API; the app never asks for Amazon credentials and never claims approval. “Ready for your KDP review” is the best status it gives.
