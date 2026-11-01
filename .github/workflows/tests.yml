@@ -1,0 +1,29 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: System packages (ffmpeg for the promo-video test)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Python packages
+        run: pip install -r backend/requirements-dev.txt
+      - name: Browser for the end-to-end tests
+        run: python -m playwright install --with-deps chromium
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Type-check and build the frontend
+        working-directory: frontend
+        run: npm ci && npx tsc --noEmit -p . && npm run build
+      - name: Tests
+        working-directory: backend
+        run: python -m pytest -q tests

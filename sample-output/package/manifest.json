@@ -1,0 +1,2028 @@
+{
+  "export_id": "exp_554489fe22e94cf0",
+  "mode": "draft",
+  "snapshot_id": "snap_c5a4026064f24cf4",
+  "created_at": "2026-10-30T16:11:41+00:00",
+  "files": {
+    "interior.pdf": {
+      "pages": [
+        {
+          "pdf_page": 1,
+          "kind": "intro",
+          "blank_reason": null,
+          "page_id": "pg_4a2f40c3d02d48eb",
+          "placements": [
+            {
+              "element_id": "el_73ffb66bf3824f54",
+              "text": true,
+              "rect_in": {
+                "x": 0.75,
+                "y": 2.6,
+                "w": 7.0,
+                "h": 2.2
+              }
+            },
+            {
+              "element_id": "el_bab0cf3bbc1d4b98",
+              "text": true,
+              "rect_in": {
+                "x": 0.75,
+                "y": 5.0,
+                "w": 7.0,
+                "h": 1.0
+              }
+            },
+            {
+              "element_id": "el_7ec48f19c9c6485f",
+              "text": true,
+              "rect_in": {
+                "x": 0.75,
+                "y": 9.2,
+                "w": 7.0,
+                "h": 0.6
+              }
+            }
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "kind": "intro",
+          "blank_reason": null,
+          "page_id": "pg_ee3295ad6f074bf9",
+          "placements": [
+            {
+              "element_id": "el_6206bfbe9bc44bdb",
+              "text": true,
+              "rect_in": {
+                "x": 0.75,
+                "y": 3.4,
+                "w": 7.0,
+                "h": 1.0
+              }
+            },
+            {
+              "element_id": "el_f797e3b1a3124be4",
+              "shape": "line",
+              "rect_in": {
+                "x": 1.5,
+                "y": 5.6,
+                "w": 5.5,
+                "h": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "pdf_page": 3,
+          "kind": "intro",
+          "blank_reason": null,
+          "page_id": "pg_1b040e8489c84383",
+          "placements": [
+            {
+              "element_id": "el_b04f7bf790764cb3",
+              "text": true,
+              "rect_in": {
+                "x": 0.75,
+                "y": 0.9,
+                "w": 7.0,
+                "h": 0.8
+              }
+            },
+            {
+              "element_id": "el_d8467ad391b34ab6",
+              "shape": "rect",
+              "rect_in": {
+                "x": 0.95,
+                "y": 2.1,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_43c849d3dd51403a",
+              "shape": "rect",
+              "rect_in": {
+                "x": 2.65,
+                "y": 2.1,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_f7f2886636b64cbe",
+              "shape": "rect",
+              "rect_in": {
+                "x": 4.35,
+                "y": 2.1,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_13fcb50bce734302",
+              "shape": "rect",
+              "rect_in": {
+                "x": 6.05,
+                "y": 2.1,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_62c2a0584ef14a1c",
+              "shape": "rect",
+              "rect_in": {
+                "x": 0.95,
+                "y": 3.75,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_6f456134030f40a0",
+              "shape": "rect",
+              "rect_in": {
+                "x": 2.65,
+                "y": 3.75,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_8846e1c448d94aa9",
+              "shape": "rect",
+              "rect_in": {
+                "x": 4.35,
+                "y": 3.75,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_e3d82bf67a2548f1",
+              "shape": "rect",
+              "rect_in": {
+                "x": 6.05,
+                "y": 3.75,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_0eac4f604a654322",
+              "shape": "rect",
+              "rect_in": {
+                "x": 0.95,
+                "y": 5.4,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_6a592bffcba54a18",
+              "shape": "rect",
+              "rect_in": {
+                "x": 2.65,
+                "y": 5.4,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_627a84c5b5704e34",
+              "shape": "rect",
+              "rect_in": {
+                "x": 4.35,
+                "y": 5.4,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_5d9f0dd7d33d46c8",
+              "shape": "rect",
+              "rect_in": {
+                "x": 6.05,
+                "y": 5.4,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_be24950adc2e41b2",
+              "shape": "rect",
+              "rect_in": {
+                "x": 0.95,
+                "y": 7.05,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_5b8cadbc021542c2",
+              "shape": "rect",
+              "rect_in": {
+                "x": 2.65,
+                "y": 7.05,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_5cb03b76741b4f97",
+              "shape": "rect",
+              "rect_in": {
+                "x": 4.35,
+                "y": 7.05,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_02e7f1ce3d4f493b",
+              "shape": "rect",
+              "rect_in": {
+                "x": 6.05,
+                "y": 7.05,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_bdb1c9b2e9c14c14",
+              "shape": "rect",
+              "rect_in": {
+                "x": 0.95,
+                "y": 8.7,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_35a28d8fe50343e6",
+              "shape": "rect",
+              "rect_in": {
+                "x": 2.65,
+                "y": 8.7,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_a7a55ea44fd74b97",
+              "shape": "rect",
+              "rect_in": {
+                "x": 4.35,
+                "y": 8.7,
+                "w": 1.4,
+                "h": 1.3
+              }
+            },
+            {
+              "element_id": "el_1523440f86c04137",
+              "shape": "rect",
+              "rect_in": {
+                "x": 6.05,
+                "y": 8.7,
+                "w": 1.4,
+                "h": 1.3
+              }
+            }
+          ]
+        },
+        {
+          "pdf_page": 4,
+          "kind": "intro",
+          "blank_reason": null,
+          "page_id": "pg_cbbd4bdb04334013",
+          "placements": [
+            {
+              "element_id": "el_e50cee5622bd4740",
+              "text": true,
+              "rect_in": {
+                "x": 0.9,
+                "y": 2.0,
+                "w": 6.7,
+                "h": 6.5
+              }
+            }
+          ]
+        },
+        {
+          "pdf_page": 5,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_80c4482d101a495c",
+          "placements": [
+            {
+              "element_id": "el_b8c53b8ff1b847ff",
+              "asset_version_id": "ver_7a0aafc4a12647ac",
+              "asset_id": "ast_48538986fe934da8",
+              "sha256": "ecc567276e782e4dcf5e6a6d3f44f017cf565d2540d6153f2fa54301de531160",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 6,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 7,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_b4ed5eadf2a14a00",
+          "placements": [
+            {
+              "element_id": "el_27b7e1b7535740b3",
+              "asset_version_id": "ver_abe41dbe967547b5",
+              "asset_id": "ast_f761883c8cbf4ee2",
+              "sha256": "8b20a2028aff2498d8da1e29f28d5fa6e75a6f92ee66e51af4a30f5dd6e81e4c",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 8,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 9,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_420cf0269e8f41d7",
+          "placements": [
+            {
+              "element_id": "el_b01dbfb669a34afa",
+              "asset_version_id": "ver_8c4914adcd344b0e",
+              "asset_id": "ast_3161ca8782d744b1",
+              "sha256": "ceac05c95cebeed6f2f019840f38c948dfd79eee20cab735e36a3633be1fb137",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 10,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 11,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_8e15d9ec29ae4789",
+          "placements": [
+            {
+              "element_id": "el_062ccb34fd514157",
+              "asset_version_id": "ver_4d1f2ba613e74144",
+              "asset_id": "ast_e10a5ba34fe54db7",
+              "sha256": "350fef935ab693973c527fe2b53338bb53176de9f9c745c2d92e89ff25179684",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 12,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 13,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_896a2dfdc0964b1d",
+          "placements": [
+            {
+              "element_id": "el_c0d3978778704be7",
+              "asset_version_id": "ver_1174bbc7837c4a04",
+              "asset_id": "ast_5bdd8a236b084c85",
+              "sha256": "02f2741a687a6709705c705af15057c385e1f39b0a3177b41abb6c6128ad4bc3",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 14,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 15,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_85893da0b65d4ab5",
+          "placements": [
+            {
+              "element_id": "el_0899d36f2bbd4b35",
+              "asset_version_id": "ver_d6944e2faae94b60",
+              "asset_id": "ast_840a9441a07d4cc1",
+              "sha256": "c71109e94f5128530478543f9b69a70b6221067bbe0045403319e0206186f118",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 16,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 17,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_acbb74f3bb724760",
+          "placements": [
+            {
+              "element_id": "el_a9186a9f2d3c477e",
+              "asset_version_id": "ver_67b10256e43e4869",
+              "asset_id": "ast_3099281ff6ff48e4",
+              "sha256": "801b3c8a6b32ab5e15e6878e3a518bbb80fef8ad621adba1424c563e0d256fbb",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 18,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 19,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_2477d2c1f64549a4",
+          "placements": [
+            {
+              "element_id": "el_824908ad9dd44f15",
+              "asset_version_id": "ver_a80fefbab3af4ad7",
+              "asset_id": "ast_370a7b1bc6e14bfe",
+              "sha256": "e07b2dd7250533e7d94e69a596b643760dcfbf5d025fe27cb6cfeff9c67aca6f",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 20,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 21,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_0eb2eb296fce47d0",
+          "placements": [
+            {
+              "element_id": "el_f177600af3594f79",
+              "asset_version_id": "ver_7c4d33c348804d36",
+              "asset_id": "ast_fef9d4aa318743c6",
+              "sha256": "b5c8c824609d8877149bbb5e1adb31e5ba5aea9413f9026787383e07a7ab02c8",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 22,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 23,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_51e4ac4e191344e6",
+          "placements": [
+            {
+              "element_id": "el_d606d4963daa40b2",
+              "asset_version_id": "ver_71ab81d7816b404d",
+              "asset_id": "ast_3d35dcaa4ac14990",
+              "sha256": "39a345086051bebfedb9dca5bfcebefa903f2b64c584d50abeacdb65a965d6d3",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 24,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 25,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_b1776ff5e982451f",
+          "placements": [
+            {
+              "element_id": "el_f2e42cf74c8b4e4f",
+              "asset_version_id": "ver_ee2412a448ac43f9",
+              "asset_id": "ast_8b7e61e999f242f0",
+              "sha256": "ef4f7b623dd7c92f6a729583bf8b15ff3b3984786d99662ab988821c68b677c1",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 26,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 27,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_959335001a9c42bd",
+          "placements": [
+            {
+              "element_id": "el_da5e4ef441c94e68",
+              "asset_version_id": "ver_8f1735706f6042b8",
+              "asset_id": "ast_3fc8efe683e442f4",
+              "sha256": "72d57e7a22f629b4139f75efe230178d7ec2b03a6a07e016de622d1e9c2647bb",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 28,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 29,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_8c5502f5a9504df8",
+          "placements": [
+            {
+              "element_id": "el_0d167701cfcc47f0",
+              "asset_version_id": "ver_6895f8c50efa42dd",
+              "asset_id": "ast_49d6a62070f54342",
+              "sha256": "b759d43e53892398433e238d71621c568e9437fadddff5543162d5614bab618f",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 30,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 31,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_db187ecb66404c05",
+          "placements": [
+            {
+              "element_id": "el_2370fd5fe1004434",
+              "asset_version_id": "ver_f61cf806b1994284",
+              "asset_id": "ast_53a944410bd549d4",
+              "sha256": "8c41009727a7cee34b206fd419b05e2c7c1a8ff27663381b86268a2adce847ae",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 32,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 33,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_e743f3dfff734f3e",
+          "placements": [
+            {
+              "element_id": "el_ece07c2cbe9d43dc",
+              "asset_version_id": "ver_866e47c33e6a4c8b",
+              "asset_id": "ast_80a0d00991624a9b",
+              "sha256": "26aeee52f57e080010ef381d315f4df8043c19598a9876725b18e5ed76a89459",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 34,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 35,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_b7d7b0c78d1d45ab",
+          "placements": [
+            {
+              "element_id": "el_9fb756d6d3d041be",
+              "asset_version_id": "ver_2129494f82f84b5a",
+              "asset_id": "ast_c6c90b517603403a",
+              "sha256": "47627d29016e8432f7cbf8dc7684bc5de71d5347439409d4c90fa2932bf14e8c",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 36,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 37,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_2d3b7a7fc0c840b4",
+          "placements": [
+            {
+              "element_id": "el_bade0000aa544303",
+              "asset_version_id": "ver_1349d8eeb5864668",
+              "asset_id": "ast_60e0a5d8b2304873",
+              "sha256": "cdb45ce5bb676935fabf260142abd4a21c496172b2f4331aec09c57e593db919",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 38,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 39,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_e4723065623d4bd6",
+          "placements": [
+            {
+              "element_id": "el_abbc78eeda264a2b",
+              "asset_version_id": "ver_daed78711f6b456d",
+              "asset_id": "ast_3c100ef5f7e54927",
+              "sha256": "14afeb3a857e3297aa62ab18911a50bc6031ab22b92429c9a6872533bcca3e78",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 40,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 41,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_66464e15ff114192",
+          "placements": [
+            {
+              "element_id": "el_bf5332fedf174ab3",
+              "asset_version_id": "ver_63bd62d324d7416b",
+              "asset_id": "ast_57ca384e105e45d5",
+              "sha256": "29d38a27b813fa81404a0c32aafce571875d8b841f28abddff5060fbc2e88256",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 42,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 43,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_6b3cc412472545bc",
+          "placements": [
+            {
+              "element_id": "el_9bde0c8ad92741f2",
+              "asset_version_id": "ver_fd9a1e2f8f214430",
+              "asset_id": "ast_4bf0c027506948e6",
+              "sha256": "58c2f326c43aea2a48ea806eb34b0f9ec24e83651f3b0d2f5a0b5a8cd4fc0e11",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 44,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 45,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_766071ad2f3d4284",
+          "placements": [
+            {
+              "element_id": "el_da5b1fa033c2465d",
+              "asset_version_id": "ver_bcf1acac205c4959",
+              "asset_id": "ast_505289c8c93f4ad2",
+              "sha256": "baeb4e431b8ac8dc7c80413362b95c548fbfd2d105a1fb674cfd6129dc6c3a13",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 46,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 47,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_8bea1254ae3540ba",
+          "placements": [
+            {
+              "element_id": "el_719ce8dd8ce14cc2",
+              "asset_version_id": "ver_a3eeb13b422745ba",
+              "asset_id": "ast_f9b46d96a29545fe",
+              "sha256": "3c95e823fbf729b7c68030270ceed3f7ca7ded974f5cd37dd0e90bd016f238c0",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 48,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 49,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_01955ccedeac4bca",
+          "placements": [
+            {
+              "element_id": "el_e211e88d919e4314",
+              "asset_version_id": "ver_2127ce08bbac49f1",
+              "asset_id": "ast_7374dfc961ee447d",
+              "sha256": "8896c9ed2c89d226948a77bb0d006922f3b253b2deab404553fc2d80d0febd0c",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 50,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 51,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_a8b070a72bb74ceb",
+          "placements": [
+            {
+              "element_id": "el_a445afb6704148d6",
+              "asset_version_id": "ver_6b6c26a69e3a412d",
+              "asset_id": "ast_f03267bf45554899",
+              "sha256": "9af326bcb2683d09662bb22fee22787db3767fa88565c75f6eb43de7e8961333",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 52,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 53,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_10240bb6dece414f",
+          "placements": [
+            {
+              "element_id": "el_d9075cb0faf74b77",
+              "asset_version_id": "ver_0f7e4f93462e41ec",
+              "asset_id": "ast_60e638ad952a4f2b",
+              "sha256": "0e31c62bfb781a436ff15a3f2de3935633c2130f8b287fc02423d032fdd6f120",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 54,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 55,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_d93607db17894ea8",
+          "placements": [
+            {
+              "element_id": "el_fc267542fab5487e",
+              "asset_version_id": "ver_84cdbc0b788440ee",
+              "asset_id": "ast_0065734d5f3742c2",
+              "sha256": "784b9c4e1d11908a3914418723a606695a8808bd0b69e733d056531deafa45eb",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 56,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 57,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_6b8d5cf4314d489d",
+          "placements": [
+            {
+              "element_id": "el_122284fbcfac4888",
+              "asset_version_id": "ver_a4e3c0cc59234c3d",
+              "asset_id": "ast_7cee6effec664867",
+              "sha256": "260072259c05e2b233d9dba030bdf20d1607a36c10e7e606112cd9ddecf40f2f",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 58,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 59,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_55f08c5f07d44ac9",
+          "placements": [
+            {
+              "element_id": "el_879c85bb8fcd4056",
+              "asset_version_id": "ver_67dbe520cc5e4556",
+              "asset_id": "ast_e38d1653b0f44bc8",
+              "sha256": "dc9772265eb915e78273d779ef81bed52a80077b718871243bc4ff6ae1d21a1c",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 60,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 61,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_86008a77b27045c3",
+          "placements": [
+            {
+              "element_id": "el_befefc604bd74f53",
+              "asset_version_id": "ver_80eb0e2140ac44ea",
+              "asset_id": "ast_f14b9c29a3894daf",
+              "sha256": "3fa40ae9873309446906af28b5951e94333f43be7699dd925d2343a129488334",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 62,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 63,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_a22f62305a674e65",
+          "placements": [
+            {
+              "element_id": "el_b8a8b05886074637",
+              "asset_version_id": "ver_2ae6a74b05a14f0a",
+              "asset_id": "ast_04aa0f90243540d2",
+              "sha256": "ecef0d58c244197b5f94d57567f773550dc565fe552e7db7a7f1e30aafd06ae3",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 64,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 65,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_5063dde6f3734993",
+          "placements": [
+            {
+              "element_id": "el_784942bc253446c7",
+              "asset_version_id": "ver_fd0678e4038e452f",
+              "asset_id": "ast_38daf95181884150",
+              "sha256": "07d6d69d1d3d90c6bbf53861f92ba7d715528ecb178b30ed9ae66415c1abeea6",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 66,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 67,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_36079b8af4e24e6b",
+          "placements": [
+            {
+              "element_id": "el_90bacb4278ad4893",
+              "asset_version_id": "ver_bc6dacaf7a9a4cd4",
+              "asset_id": "ast_85641c29d6aa4f2c",
+              "sha256": "fcfda83607245c4353239e90fa751db2304bd14fcb7b5b8f596cf2e05a57a528",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 68,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 69,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_7ef6305280934db1",
+          "placements": [
+            {
+              "element_id": "el_6db40306dc474f53",
+              "asset_version_id": "ver_9d9c1eadf19b4d71",
+              "asset_id": "ast_79e3a3a2c4d44c07",
+              "sha256": "5b2eafef8e2561d63ec96178a9d4ec79a91933eb29573a878a47cd8a542eb4a3",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 70,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 71,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_d4f035a021504d03",
+          "placements": [
+            {
+              "element_id": "el_831c11f4a027490f",
+              "asset_version_id": "ver_b8e21b8e302a49c5",
+              "asset_id": "ast_7a9fe2261d564409",
+              "sha256": "739c0e80ebd121f4a4a9b1f831b8518c28341ad04837f31959ab65bd7d20a11f",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 72,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 73,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_c2c91eae08c54fa1",
+          "placements": [
+            {
+              "element_id": "el_e88c5292fa4944b3",
+              "asset_version_id": "ver_09ae98e1a8d0453c",
+              "asset_id": "ast_6993cad7337d430d",
+              "sha256": "b760f8e153c0ee436c06c31c0c407aaac4caa954a190b7c8ba5a04955257bb4c",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 74,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 75,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_7de8a56e05154daa",
+          "placements": [
+            {
+              "element_id": "el_8f39fe94f45d4f73",
+              "asset_version_id": "ver_3490de111009405d",
+              "asset_id": "ast_e74da3405255409b",
+              "sha256": "ae5f88fdb21365db475dc6ea6f3c90cb9cc8a96cf0432d283ce3d340fa699f61",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 76,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 77,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_732c0374a26c4938",
+          "placements": [
+            {
+              "element_id": "el_e4b7bd9b8adb4221",
+              "asset_version_id": "ver_588531c307ff4789",
+              "asset_id": "ast_62d10e82514844c0",
+              "sha256": "ff706c804d21b3622321a24566de1c7252189d11c6bf465d10d813c1c447ebaa",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 78,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 79,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_9df22593e63641ae",
+          "placements": [
+            {
+              "element_id": "el_2b4217a983be4191",
+              "asset_version_id": "ver_8d0b4a8f8037460b",
+              "asset_id": "ast_8594e082d30e4641",
+              "sha256": "868ac4433f50d5386f9bd52fa100cdcb1dfc4ec1112df6752f1653f9295f8de0",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 80,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 81,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_7c446a99acb248f8",
+          "placements": [
+            {
+              "element_id": "el_11f128c2c19c48a1",
+              "asset_version_id": "ver_fddbd87ad1ac4230",
+              "asset_id": "ast_04172ded69d74ba5",
+              "sha256": "29db92d79ce8948c7109add363cce00007adbbac61d3d109a70ed3fc32324f69",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 82,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        },
+        {
+          "pdf_page": 83,
+          "kind": "illustration",
+          "blank_reason": null,
+          "page_id": "pg_92390359c6c045fa",
+          "placements": [
+            {
+              "element_id": "el_163b052838e3479c",
+              "asset_version_id": "ver_7ca8f25cebec40dd",
+              "asset_id": "ast_1463d6749d854f9b",
+              "sha256": "5851066793b44602414606e43e35c693ae303f136004329da15f64d33db55384",
+              "rect_in": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 7.5,
+                "h": 10.0
+              },
+              "rotation": 0.0,
+              "crop": {
+                "b": 0,
+                "l": 0,
+                "r": 0,
+                "t": 0
+              },
+              "embedded_px": [
+                2250,
+                3000
+              ]
+            }
+          ]
+        },
+        {
+          "pdf_page": 84,
+          "kind": "blank",
+          "blank_reason": "back",
+          "page_id": null,
+          "placements": []
+        }
+      ]
+    },
+    "cover.pdf": {
+      "layout_in": {
+        "title": "Cute Island Adventures",
+        "title_pt": 51.0,
+        "title_box": {
+          "x": 9.164168,
+          "y": 0.525,
+          "w": 7.8,
+          "h": 2.120833
+        },
+        "subtitle": "A Coloring Book for Kids Ages 4\u20137",
+        "subtitle_pt": 22.0,
+        "subtitle_box": {
+          "x": 9.064168,
+          "y": 2.795833,
+          "w": 8.0,
+          "h": 0.431944
+        },
+        "author": "Your Name",
+        "author_pt": 20.0,
+        "author_box": {
+          "x": 9.064168,
+          "y": 10.325,
+          "w": 8.0,
+          "h": 0.5
+        },
+        "art_area": {
+          "x": 9.064168,
+          "y": 3.427778,
+          "w": 8.0,
+          "h": 6.747222
+        },
+        "art": {
+          "x": 10.53396,
+          "y": 3.427778,
+          "w": 5.060417,
+          "h": 6.747222
+        },
+        "back_copy": "Grab your crayons and visit a sunny island full of friendly animals! Inside you will find 40 original illustrations with big, bold shapes made for little hands.\n\n\u2022 40 single-sided designs\n\u2022 Blank back on every page\n\u2022 8.5 \u00d7 11 in pages",
+        "back_copy_pt": 15.0,
+        "back_copy_box": {
+          "x": 0.475,
+          "y": 0.575,
+          "w": 7.8,
+          "h": 5.25
+        },
+        "thumbs": [
+          {
+            "version_id": "ver_71ab81d7816b404d",
+            "rect": {
+              "x": 0.375,
+              "y": 6.096569,
+              "w": 2.533333,
+              "h": 3.278431
+            }
+          },
+          {
+            "version_id": "ver_63bd62d324d7416b",
+            "rect": {
+              "x": 3.108333,
+              "y": 6.096569,
+              "w": 2.533333,
+              "h": 3.278431
+            }
+          },
+          {
+            "version_id": "ver_67dbe520cc5e4556",
+            "rect": {
+              "x": 5.841667,
+              "y": 6.096569,
+              "w": 2.533333,
+              "h": 3.278431
+            }
+          }
+        ],
+        "barcode": {
+          "x": 6.375,
+          "y": 9.675,
+          "w": 2.0,
+          "h": 1.2
+        },
+        "spine_text": null
+      },
+      "geometry": {
+        "back": {
+          "h": 11.0,
+          "w": 8.5,
+          "x": 0.125,
+          "y": 0.125
+        },
+        "back_safe": {
+          "h": 10.5,
+          "w": 8.0,
+          "x": 0.375,
+          "y": 0.375
+        },
+        "barcode": {
+          "h": 1.2,
+          "w": 2.0,
+          "x": 6.375,
+          "y": 9.675
+        },
+        "bleed_in": 0.125,
+        "conflicts": [
+          "One indexed copy of the KDP cover page text mentions the barcode at the lower LEFT of the back cover, while the KDP barcode help pages (GDTKFJPNQCBTMRV6, G5HDYGP4BXLX4RUW) state the lower RIGHT. This app reserves the lower-right corner (used by both barcode pages) \u2014 confirm against your official cover template.",
+          "KDP prints spine text only on books with more than 79 pages. Third-party guides cite a ~0.2\u20130.25 in minimum spine width instead. The app requires BOTH the page-count rule and that the text fits between 0.0625 in fold clearances."
+        ],
+        "front": {
+          "h": 11.0,
+          "w": 8.5,
+          "x": 8.814168,
+          "y": 0.125
+        },
+        "front_safe": {
+          "h": 10.5,
+          "w": 8.0,
+          "x": 9.064168,
+          "y": 0.375
+        },
+        "full_height_in": 11.25,
+        "full_height_pt": 810.0,
+        "full_width_in": 17.439168,
+        "full_width_pt": 1255.62,
+        "page_count": 84,
+        "paper": "bw_white",
+        "profile_version": "kdp-paperback-2026-10-30",
+        "spine": {
+          "h": 11.0,
+          "w": 0.189168,
+          "x": 8.625,
+          "y": 0.125
+        },
+        "spine_coefficient_in": 0.002252,
+        "spine_safe": {
+          "h": 10.5,
+          "w": 0.064168,
+          "x": 8.6875,
+          "y": 0.375
+        },
+        "spine_text": {
+          "available_in": 0.064168,
+          "eligible": false,
+          "fits": false,
+          "page_rule_ok": true,
+          "reasons": [
+            "Usable spine width is 0.064 in after 0.0625 in fold clearances; 10.0 pt text needs 0.139 in."
+          ]
+        },
+        "spine_width_in": 0.189168
+      }
+    }
+  },
+  "verification": {
+    "interior": {
+      "ok": true,
+      "errors": [],
+      "info": {
+        "page_count": 84,
+        "page_sizes_pt": [
+          [
+            612.0,
+            792.0
+          ]
+        ],
+        "fonts_embedded": [
+          "/AAAAAA+DejaVuSans",
+          "/AAAAAA+DejaVuSans-Bold"
+        ],
+        "fonts_not_embedded": [],
+        "blank_pages_verified": 40,
+        "file_size_bytes": 4621890
+      }
+    },
+    "cover": {
+      "ok": true,
+      "errors": [],
+      "info": {
+        "size_pt": [
+          1255.62,
+          810.0
+        ],
+        "size_in": [
+          17.439167,
+          11.25
+        ],
+        "fonts_embedded": [
+          "/AAAAAA+DejaVuSans",
+          "/AAAAAA+DejaVuSans-Bold"
+        ],
+        "fonts_not_embedded": [],
+        "barcode_area_white": true,
+        "file_size_bytes": 735271
+      }
+    }
+  }
+}

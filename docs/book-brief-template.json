@@ -1,0 +1,80 @@
+{
+  "title": "Moonlit Garden Friends",
+  "settings": {
+    "subtitle": "A Relaxing Coloring Book of Original Night-Garden Animals",
+    "author": "Your Pen Name",
+    "audience": "Adults",
+    "ages": "Adults",
+    "trim": "8.5x11",
+    "paper": "white",
+    "bleed": "no",
+    "blank_backs": "yes",
+    "style_preset": "Adult pen-and-ink",
+    "cleanup": "fine",
+    "list_price": "9.99"
+  },
+  "book_description": "A calm, detailed coloring book set in an enchanted night garden. Every page features original woodland and garden animals among moonflowers, ferns, mushrooms and lanterns. The mood is peaceful and cozy, never scary.\n\nPut the most important points first. You can write up to 10,000 words here; give each character or place its own paragraph.",
+  "master_style": "Black-and-white adult coloring book page, pure white background, no grayscale shading, intricate indie pen-and-ink line art, fine-liner style, delicate botanical stippling and organic woodgrain cross-hatching, crisp enclosed shapes, vertical 8.5x11 aspect ratio, full-page composition.",
+  "avoid": [
+    "gray shading or gradients",
+    "solid black backgrounds",
+    "text inside illustrations"
+  ],
+  "characters": [
+    {
+      "name": "Juniper the Hedgehog",
+      "role": "main character",
+      "appearance": "small round hedgehog with a knitted scarf and tiny round glasses",
+      "proportions": "head about a third of the body"
+    },
+    {
+      "name": "Pip the Moth",
+      "appearance": "fluffy moth with fern-patterned wings"
+    }
+  ],
+  "front_cover": "Juniper the hedgehog sitting on a mossy stone under a big full moon, surrounded by glowing moonflowers and fireflies. Rich night-blue and violet colors, warm lantern light.",
+  "back_cover": "Pip the moth flying past a row of lanterns over a sleeping garden, wide and simple.",
+  "back_cover_text": "Slow down and color your way through a moonlit garden. 40 original, detailed illustrations printed on one side of the page.",
+  "intro_pages": [
+    {
+      "label": "Title page",
+      "placement": "free_space",
+      "description": "A ribbon of moonflowers and ferns with Pip the moth."
+    },
+    {
+      "label": "This book belongs to",
+      "placement": "behind_text",
+      "description": "A decorative frame of vines, mushrooms and tiny stars around the page."
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "label": "Juniper's lantern",
+      "description": "Juniper the hedgehog carrying a paper lantern along a mossy path lined with ferns and toadstools."
+    },
+    {
+      "page": 2,
+      "label": "Moth dance",
+      "description": "Pip and two other moths circling a cluster of night-blooming flowers."
+    },
+    {
+      "page": 3,
+      "label": "Mushroom tea",
+      "description": "Juniper pouring tea at a tiny table made from a mushroom, acorn cups, a sleepy snail nearby."
+    }
+  ],
+  "listing": {
+    "keywords": [
+      "adult coloring book",
+      "night garden",
+      "relaxing coloring",
+      "botanical animals",
+      "hedgehog coloring",
+      "stress relief",
+      "cozy coloring"
+    ],
+    "isbn": "free KDP ISBN",
+    "description": "Escape into a peaceful moonlit garden with 40 original pen-and-ink illustrations of hedgehogs, moths and woodland friends. Each design is printed on its own page."
+  }
+}

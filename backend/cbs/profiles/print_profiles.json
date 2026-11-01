@@ -1,0 +1,65 @@
+{
+  "profile_set_version": "kdp-paperback-2026-10-30",
+  "checked_on": "2026-10-30",
+  "verification_note": "Values were read from Amazon KDP help pages (via search-indexed copies of kdp.amazon.com help topics) on 2026-10-30. Always confirm against the official KDP cover calculator/template for your exact configuration before uploading.",
+  "sources": {
+    "submission_specs": "https://kdp.amazon.com/en_US/help/topic/G201857950",
+    "trim_bleed_margins": "https://kdp.amazon.com/en_US/help/topic/GVBQ3CMEQW3W2VL6",
+    "images_lines": "https://kdp.amazon.com/en_US/help/topic/G202145060",
+    "cover_specs": "https://kdp.amazon.com/en_US/help/topic/G201953020",
+    "cover_calculator": "https://kdp.amazon.com/cover-calculator",
+    "barcode": "https://kdp.amazon.com/help/topic/GDTKFJPNQCBTMRV6",
+    "barcode_own": "https://kdp.amazon.com/help/topic/G5HDYGP4BXLX4RUW"
+  },
+  "interior_bleed": {
+    "add_width_in": 0.125,
+    "add_height_in": 0.25,
+    "edges": "top, bottom and outside edge",
+    "source": "trim_bleed_margins"
+  },
+  "gutter_bands": [
+    {"min_pages": 24, "max_pages": 150, "inside_in": 0.375},
+    {"min_pages": 151, "max_pages": 300, "inside_in": 0.5},
+    {"min_pages": 301, "max_pages": 500, "inside_in": 0.625},
+    {"min_pages": 501, "max_pages": 700, "inside_in": 0.75},
+    {"min_pages": 701, "max_pages": 828, "inside_in": 0.875}
+  ],
+  "outside_margin_min_in": {"no_bleed": 0.25, "bleed": 0.375},
+  "papers": {
+    "bw_white": {
+      "label": "Black ink on white paper",
+      "ink": "black",
+      "paper": "white",
+      "spine_in_per_page": 0.002252,
+      "min_pages": 24,
+      "verified": true
+    },
+    "bw_cream": {
+      "label": "Black ink on cream paper",
+      "ink": "black",
+      "paper": "cream",
+      "spine_in_per_page": 0.0025,
+      "min_pages": 24,
+      "verified": true,
+      "note": "Spine coefficient verified; this app's default book does not use cream."
+    }
+  },
+  "cover": {
+    "bleed_in": 0.125,
+    "safe_margin_from_trim_in": 0.25,
+    "spine_fold_clearance_in": 0.0625,
+    "spine_text_min_pages_exclusive": 79,
+    "spine_text_min_font_pt": 6,
+    "barcode": {"width_in": 2.0, "height_in": 1.2, "min_offset_from_trim_and_spine_in": 0.25, "corner": "lower-right of back cover"},
+    "conflicts": [
+      "One indexed copy of the KDP cover page text mentions the barcode at the lower LEFT of the back cover, while the KDP barcode help pages (GDTKFJPNQCBTMRV6, G5HDYGP4BXLX4RUW) state the lower RIGHT. This app reserves the lower-right corner (used by both barcode pages) — confirm against your official cover template.",
+      "KDP prints spine text only on books with more than 79 pages. Third-party guides cite a ~0.2–0.25 in minimum spine width instead. The app requires BOTH the page-count rule and that the text fits between 0.0625 in fold clearances."
+    ]
+  },
+  "trims": {
+    "8.5x11": {"width_in": 8.5, "height_in": 11.0, "large_trim": true, "validated": true, "papers": ["bw_white", "bw_cream"], "max_pages_note": "Verify maximum page count for this trim in KDP's trim-size table."},
+    "8x10": {"width_in": 8.0, "height_in": 10.0, "large_trim": true, "validated": true, "papers": ["bw_white", "bw_cream"], "max_pages_note": "Verify maximum page count for this trim in KDP's trim-size table."},
+    "8.5x8.5": {"width_in": 8.5, "height_in": 8.5, "large_trim": true, "validated": true, "papers": ["bw_white", "bw_cream"], "max_pages_note": "Verify maximum page count for this trim in KDP's trim-size table."}
+  },
+  "default_safe_margin_in": 0.5
+}

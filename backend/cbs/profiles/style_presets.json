@@ -1,0 +1,704 @@
+{
+  "version": "2026-10-31",
+  "note": "Art styles are not owned, but specific characters, costumes, logos and signature designs are. Presets describe general styles for ORIGINAL characters only.",
+  "presets": {
+    "big_bold_first": {
+      "label": "Big & bold – first coloring",
+      "ages": "3–5",
+      "description": "One big, friendly subject built from a few jumbo shapes, with extra-thick lines and almost no background. The easiest style for little hands and chunky crayons.",
+      "best_for": "First coloring books, toddlers and preschoolers, early learners",
+      "prompt_style": "very simple preschool coloring page, one big friendly subject, extra-thick smooth outlines, jumbo rounded shapes",
+      "outline_weight": "Extra-thick, smooth outlines (about 2–3 mm printed)",
+      "detail_level": "Very low – one subject made of about 8–20 big shapes",
+      "coloring_spaces": "Jumbo spaces only; nothing smaller than a thumbprint",
+      "background_density": "None or almost none – a ground line, a cloud or a sun at most",
+      "avoid_extra": [
+        "busy backgrounds",
+        "small accessories, patterns or textures",
+        "more than two characters in one picture"
+      ],
+      "subjects": [
+        "a happy round whale",
+        "a chubby smiling puppy",
+        "a friendly fire truck",
+        "a big smiling sun",
+        "a cheerful little dinosaur",
+        "a cupcake with a cherry on top",
+        "a sleepy owl",
+        "a bouncy ball with a star"
+      ],
+      "activities": [
+        [
+          "waving hello",
+          "a plain page with one cloud"
+        ],
+        [
+          "sitting and smiling",
+          "a simple grass line"
+        ],
+        [
+          "holding a big balloon",
+          "an empty sky"
+        ],
+        [
+          "splashing in a puddle",
+          "a single ground line"
+        ],
+        [
+          "sleeping peacefully",
+          "a crescent moon and one star"
+        ],
+        [
+          "jumping for joy",
+          "a simple hill"
+        ]
+      ],
+      "compositions": [
+        "one subject centered and filling most of the page",
+        "subject very large with a simple ground line"
+      ],
+      "cleanup_mode": "bold",
+      "master_style": "Coloring page for toddlers and preschoolers (ages 3–5). Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Extra-thick, smooth, even outlines (about 2–3 mm when printed). ONE big, friendly subject that fills most of the page, made of about 8–20 large rounded shapes, each at least the size of a thumbprint. Little or no background: a ground line, a cloud or a sun at most. Simple, happy face."
+    },
+    "cute_animal_friends": {
+      "label": "Cute animal friends",
+      "ages": "3–6",
+      "description": "Chubby, rounded animals with big eyes and happy faces, plus one or two simple props. Soft and cuddly, easy to color.",
+      "best_for": "Animal books, bedtime and friendship themes",
+      "prompt_style": "cute rounded cartoon animals, chubby bodies, big friendly eyes, soft simple shapes, thick clean outlines",
+      "outline_weight": "Thick, soft, rounded outlines (about 1.5–2 mm printed)",
+      "detail_level": "Low – one or two animals with one or two simple props",
+      "coloring_spaces": "Large rounded spaces; fur drawn as a smooth outline, never as strokes",
+      "background_density": "Sparse – two or three simple objects such as flowers, a tree or clouds",
+      "avoid_extra": [
+        "fur texture strokes",
+        "realistic anatomy",
+        "busy backgrounds"
+      ],
+      "subjects": [
+        "a chubby bunny",
+        "a round little bear",
+        "a smiling turtle",
+        "a fluffy lamb",
+        "a happy hedgehog",
+        "a playful kitten",
+        "a baby elephant",
+        "a waddling penguin"
+      ],
+      "activities": [
+        [
+          "sharing a snack",
+          "a picnic blanket on the grass"
+        ],
+        [
+          "reading a picture book",
+          "under a big tree"
+        ],
+        [
+          "blowing bubbles",
+          "a sunny garden"
+        ],
+        [
+          "building a sandcastle",
+          "a simple beach"
+        ],
+        [
+          "planting a flower",
+          "a small garden bed"
+        ],
+        [
+          "giving a hug",
+          "a meadow with a few flowers"
+        ],
+        [
+          "having a bath with bubbles",
+          "a round bathtub"
+        ],
+        [
+          "flying a kite",
+          "a hill with clouds"
+        ]
+      ],
+      "compositions": [
+        "one animal large in the center",
+        "two animal friends side by side",
+        "animal close-up with a big smile and one prop"
+      ],
+      "cleanup_mode": "bold",
+      "master_style": "Children's coloring book page for ages 3–6. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Thick, soft, rounded outlines (about 1.5–2 mm when printed). Cute cartoon animals with chubby rounded bodies, big friendly eyes and happy faces; fur is a smooth outline, never strokes. One or two animals large in the middle with one or two simple props, and only two or three simple background objects. Every space is at least the size of a fingertip."
+    },
+    "classic_cartoon": {
+      "label": "Classic cartoon",
+      "description": "Round, friendly shapes and bold outlines. The default for ages 4–7.",
+      "outline_weight": "Bold, uniform outlines (about 1–1.5 mm printed)",
+      "background_density": "Sparse – a few large background objects",
+      "detail_level": "Low – suitable for ages 4–7",
+      "coloring_spaces": "Mostly large spaces; avoid regions smaller than a fingertip",
+      "prompt_style": "classic friendly cartoon style, rounded shapes, thick clean outlines",
+      "avoid_extra": [],
+      "subjects": [],
+      "activities": [],
+      "compositions": [],
+      "ages": "4–7",
+      "best_for": "Any kids' theme – the safe default",
+      "master_style": "Children's coloring book page for ages 4–7. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Classic friendly cartoon style with round shapes and bold, uniform outlines (about 1–1.5 mm when printed). One main subject, large and clear, with a few large background objects. Every space is at least the size of a fingertip."
+    },
+    "storybook_adventure": {
+      "label": "Storybook adventure",
+      "ages": "4–7",
+      "description": "Picture-book scenes that tell one moment of a story: characters large in front, a few simple background objects behind. Made for books with a plot and recurring characters.",
+      "best_for": "Story-driven books with recurring characters (adventures, rescues, quests)",
+      "prompt_style": "gentle picture-book cartoon style, rounded friendly characters with expressive faces, one clear story moment, thick clean outlines",
+      "outline_weight": "Bold, even outlines (about 1.5–2 mm printed), slightly thinner lines only for faces",
+      "detail_level": "Low to medium – one clear scene with the characters large and in front",
+      "coloring_spaces": "Large and medium spaces; nothing smaller than a fingertip",
+      "background_density": "Light – three to five simple background objects (a tree, a house, a hill), no textures",
+      "avoid_extra": [
+        "crowded scenes with many small figures",
+        "detailed textures on walls, grass or water"
+      ],
+      "subjects": [],
+      "activities": [
+        [
+          "setting off on a journey",
+          "a winding path toward distant hills"
+        ],
+        [
+          "discovering a hidden door",
+          "the trunk of a giant tree"
+        ],
+        [
+          "crossing a wobbly bridge",
+          "a gentle river below"
+        ],
+        [
+          "finding a treasure map",
+          "an attic with a big trunk"
+        ],
+        [
+          "helping a lost friend",
+          "a quiet forest clearing"
+        ],
+        [
+          "celebrating together",
+          "a village square with bunting"
+        ],
+        [
+          "camping under the stars",
+          "a tent and a small campfire"
+        ],
+        [
+          "sailing a little boat",
+          "calm waves and a lighthouse"
+        ]
+      ],
+      "compositions": [
+        "main characters large in the foreground with a simple setting behind",
+        "two characters interacting in the center",
+        "wide scene with a clear horizon and big characters",
+        "close-up of a character reacting with a big expression"
+      ],
+      "cleanup_mode": "bold",
+      "master_style": "Children's coloring book page for ages 4–7. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Bold, smooth, even outlines (about 1.5–2 mm when printed). Gentle picture-book cartoon style with rounded shapes and friendly, expressive faces. The page shows one clear moment of the story: the main characters are large and in front, with only three to five simple background objects. Every shape is at least the size of a fingertip, easy to color with crayons."
+    },
+    "vehicles_machines": {
+      "label": "Trucks, vehicles & machines",
+      "ages": "4–7",
+      "description": "Chunky, toy-like vehicles with big wheels, big windows and simple parts. Gears, ladders and hoses are drawn few and large.",
+      "best_for": "Rescue crews, construction, trains, boats, rockets and gadgets",
+      "prompt_style": "chunky toy-like cartoon vehicles, big round wheels, big windows, simple mechanical parts as large shapes, thick clean outlines",
+      "outline_weight": "Bold, even outlines (about 1.5–2 mm printed)",
+      "detail_level": "Low to medium – big body panels, few and large bolts, gears and lights",
+      "coloring_spaces": "Large body panels, wheels and windows; no thin grilles or tiny rivets",
+      "background_density": "Light – a road, a ground line or a few simple buildings",
+      "avoid_extra": [
+        "realistic engine detail or thin grilles",
+        "real vehicle brands, logos or license plates",
+        "lettering on vehicles"
+      ],
+      "subjects": [
+        "a chunky fire truck",
+        "a friendly digger",
+        "a rescue helicopter",
+        "a little tugboat",
+        "a round rocket",
+        "a tow truck",
+        "a steam train",
+        "a cement mixer"
+      ],
+      "activities": [
+        [
+          "racing to the rescue",
+          "a curvy road with a few trees"
+        ],
+        [
+          "digging a big hole",
+          "a construction site with a sand pile"
+        ],
+        [
+          "lifting off",
+          "a launch pad and a few stars"
+        ],
+        [
+          "pulling a stuck car",
+          "a muddy road"
+        ],
+        [
+          "chugging over a bridge",
+          "hills and a river"
+        ],
+        [
+          "parking in the garage",
+          "a big open garage door"
+        ],
+        [
+          "towing a boat",
+          "a harbor with a pier"
+        ],
+        [
+          "delivering a big gift",
+          "a town street"
+        ]
+      ],
+      "compositions": [
+        "one vehicle large and side-on across the page",
+        "vehicle in three-quarter view with a driver waving",
+        "two vehicles working together"
+      ],
+      "cleanup_mode": "bold",
+      "master_style": "Children's coloring book page for ages 4–7. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Bold, smooth, even outlines (about 1.5–2 mm when printed). Chunky, rounded, toy-like vehicles and machines with big wheels and big windows; gears, ladders, hoses and bolts are drawn few and large, never as thin grilles or tiny rivets. Drivers and riders are large and friendly. Background kept to a road, a ground line or a few simple shapes. No lettering, logos or license plates."
+    },
+    "sticker_bubble": {
+      "label": "Sticker style",
+      "ages": "4–7",
+      "description": "Each character or object looks like a sticker: a thick outline around the whole figure, simple inside lines and clear white space around it.",
+      "best_for": "Character sheets, 'meet the crew' pages, collections such as fruits, pets or toys",
+      "prompt_style": "sticker-style cartoon figures, very thick outer outline around each figure, simple inner lines, white space around each figure",
+      "outline_weight": "Very thick outer contour (about 2.5 mm printed) with thinner inside lines (about 1 mm)",
+      "detail_level": "Low – simple figures, no scenery",
+      "coloring_spaces": "Large spaces; each figure stands alone with white space around it",
+      "background_density": "None – white space between the figures",
+      "avoid_extra": [
+        "scenery or backgrounds",
+        "overlapping figures"
+      ],
+      "subjects": [
+        "a happy fruit family",
+        "a set of cheerful toys",
+        "a team of pet friends",
+        "a collection of cute sea creatures",
+        "a set of space friends"
+      ],
+      "activities": [
+        [
+          "posing for a group picture",
+          "white space only"
+        ],
+        [
+          "waving hello",
+          "white space only"
+        ],
+        [
+          "showing a favorite toy",
+          "white space only"
+        ]
+      ],
+      "compositions": [
+        "one sticker-like character centered and large",
+        "three or four sticker-like figures spread out with space between them"
+      ],
+      "cleanup_mode": "bold",
+      "master_style": "Children's coloring book page for ages 4–7. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Sticker style: every character or object has a very thick outer outline around the whole figure (about 2.5 mm when printed) and only a few simpler lines inside. Figures do not overlap and have clear white space around them; no scenery. Rounded, cheerful shapes, each at least the size of a fingertip."
+    },
+    "crayon_doodle": {
+      "label": "Hand-drawn doodle",
+      "ages": "4–7",
+      "description": "Playful, hand-drawn marker look with slightly wobbly lines – like a fun drawing by a friendly grown-up. Lines still meet, so shapes stay closed.",
+      "best_for": "Silly, playful books: monsters, food, school, holidays",
+      "prompt_style": "playful hand-drawn marker doodle style, slightly wobbly but confident lines, simple cheerful shapes",
+      "outline_weight": "Thick marker-like lines (about 1.5–2 mm printed), slightly wobbly but always joined",
+      "detail_level": "Low – simple doodled shapes with a few fun details",
+      "coloring_spaces": "Large spaces; every line meets the next so shapes are closed",
+      "background_density": "Sparse – a few doodled stars, hearts, swirls or squiggles kept large",
+      "avoid_extra": [
+        "sketchy double lines",
+        "gaps in outlines",
+        "scribble shading"
+      ],
+      "subjects": [
+        "a silly little monster",
+        "a smiling slice of pizza",
+        "a dancing robot",
+        "a goofy alien",
+        "a happy taco",
+        "a cheerful snowman"
+      ],
+      "activities": [
+        [
+          "dancing",
+          "a few doodled stars"
+        ],
+        [
+          "eating a giant snack",
+          "a few doodled crumbs and hearts"
+        ],
+        [
+          "playing music",
+          "doodled music notes, kept large"
+        ],
+        [
+          "jumping on a trampoline",
+          "a few doodled clouds"
+        ],
+        [
+          "making a funny face",
+          "a few doodled swirls"
+        ]
+      ],
+      "compositions": [
+        "one doodled character large in the center",
+        "two doodled friends having fun together"
+      ],
+      "cleanup_mode": "bold",
+      "master_style": "Children's coloring book page for ages 4–7. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Playful hand-drawn marker doodle style: thick lines (about 1.5–2 mm when printed) that are slightly wobbly but confident, with no sketchy double lines and no gaps, so every shape stays closed. Simple, silly, cheerful shapes, large enough to color with crayons; any doodled stars, hearts or swirls in the background are few and large."
+    },
+    "hidden_object_fun": {
+      "label": "Find-and-color",
+      "ages": "5–7",
+      "description": "A simple scene with 5–8 easy-to-spot objects to find (a star, a key, a fish…). Each one is drawn clearly with its own outline, still big enough to color.",
+      "best_for": "Activity books, 'find the hidden …' features, quiet-time books",
+      "prompt_style": "simple cartoon scene with a few hidden objects to find, each object clearly drawn and separated, thick clean outlines",
+      "outline_weight": "Bold, even outlines (about 1.5 mm printed)",
+      "detail_level": "Medium – one scene plus 5–8 findable objects, nothing tiny",
+      "coloring_spaces": "Medium and large spaces; each hidden object at least the size of a fingertip",
+      "background_density": "Medium – a simple scene with room for the hidden objects",
+      "avoid_extra": [
+        "tiny or overlapping hidden objects",
+        "dense patterns that hide objects too well"
+      ],
+      "subjects": [],
+      "activities": [
+        [
+          "looking for lost things",
+          "a messy toy room"
+        ],
+        [
+          "exploring",
+          "a garden with flower pots"
+        ],
+        [
+          "shopping",
+          "a market stall with fruit"
+        ],
+        [
+          "tidying up",
+          "a kitchen with shelves"
+        ],
+        [
+          "playing hide-and-seek",
+          "a park with bushes and a slide"
+        ],
+        [
+          "fishing",
+          "a pond with reeds"
+        ]
+      ],
+      "compositions": [
+        "wide simple scene with objects spread around the page",
+        "one big character in a scene with objects hidden around it"
+      ],
+      "cleanup_mode": "bold",
+      "master_style": "Children's coloring book page for ages 5–7. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Bold, even outlines (about 1.5 mm when printed). A simple cartoon scene with five to eight easy-to-spot objects hidden in it (for example a star, a key, a fish, a cup), each drawn clearly with its own closed outline, not overlapping other details, and at least the size of a fingertip. Friendly rounded characters, large and clear."
+    },
+    "fairytale_magic": {
+      "label": "Fairy-tale & magic",
+      "ages": "4–7",
+      "description": "Castles, friendly dragons, unicorns, wizards and sparkly stars – all in simple, rounded shapes with big spaces.",
+      "best_for": "Fantasy, princess-and-knight, dragon and magic themes (original characters)",
+      "prompt_style": "whimsical fairy-tale cartoon style, rounded castles, friendly magical creatures, big simple stars and sparkles, thick clean outlines",
+      "outline_weight": "Bold, smooth outlines (about 1.5–2 mm printed)",
+      "detail_level": "Low – magical scenes with big simple shapes; sparkles drawn as a few large stars",
+      "coloring_spaces": "Large spaces; dresses, capes and wings as big shapes without ruffles or patterns",
+      "background_density": "Light – a castle, a rainbow or a few big stars and clouds",
+      "avoid_extra": [
+        "tiny sparkles and glitter dots",
+        "lace, ruffles or jewel detail",
+        "costumes or castles copied from films"
+      ],
+      "subjects": [
+        "a friendly baby dragon",
+        "a little unicorn",
+        "a young wizard",
+        "a brave knight",
+        "a fairy with big wings",
+        "a smiling castle"
+      ],
+      "activities": [
+        [
+          "casting a sparkly spell",
+          "a few big stars"
+        ],
+        [
+          "flying over the castle",
+          "fluffy clouds"
+        ],
+        [
+          "having a royal tea party",
+          "a castle garden"
+        ],
+        [
+          "riding a rainbow",
+          "big clouds at each end"
+        ],
+        [
+          "reading a spell book",
+          "a cozy tower room"
+        ],
+        [
+          "dancing at the ball",
+          "a simple castle hall"
+        ]
+      ],
+      "compositions": [
+        "character large in front of a simple castle",
+        "two magical friends together in the center",
+        "character flying across a big sky"
+      ],
+      "cleanup_mode": "bold",
+      "master_style": "Children's coloring book page for ages 4–7. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Bold, smooth outlines (about 1.5–2 mm when printed). Whimsical fairy-tale cartoon style: rounded castles, friendly original magical creatures and characters with happy faces. Sparkles are a few large stars, never tiny dots; dresses, capes and wings are big simple shapes without ruffles or patterns. Every space is at least the size of a fingertip."
+    },
+    "chibi_cute": {
+      "label": "Chibi / kawaii cute",
+      "description": "Tiny bodies, oversized heads and simple faces – very easy to color.",
+      "outline_weight": "Thick, soft rounded outlines",
+      "background_density": "Very sparse – a few hearts, stars or clouds",
+      "detail_level": "Very low – ideal for ages 3–6",
+      "coloring_spaces": "Very large spaces only",
+      "prompt_style": "chibi kawaii style, oversized head, tiny body, simple face, thick rounded outlines",
+      "avoid_extra": [
+        "copying existing mascot or brand characters"
+      ],
+      "subjects": [
+        "an original chibi hero",
+        "an original kawaii cat",
+        "an original kawaii food friend",
+        "an original chibi wizard",
+        "an original baby dragon"
+      ],
+      "activities": [
+        [
+          "hugging a giant heart",
+          "a sky full of stars"
+        ],
+        [
+          "eating a huge dumpling",
+          "a cozy kitchen table"
+        ],
+        [
+          "napping on a cloud",
+          "a pastel sky"
+        ],
+        [
+          "waving with a big smile",
+          "a simple flower field"
+        ],
+        [
+          "dancing in the rain",
+          "under a tiny umbrella"
+        ]
+      ],
+      "compositions": [
+        "single character centered and large",
+        "two characters holding hands",
+        "character peeking from the bottom edge"
+      ],
+      "ages": "3–6",
+      "best_for": "Very young kids; cute characters, food and pets",
+      "master_style": "Children's coloring book page for ages 3–6. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Chibi / kawaii style: oversized heads, tiny bodies, simple happy faces, thick soft rounded outlines. One or two characters, large and centered, with only a few hearts, stars or clouds around them. Very large spaces only."
+    },
+    "superhero_comic": {
+      "label": "Superhero comic (original heroes)",
+      "description": "Bold inking, capes, action poses and burst panels – for heroes you invent with the hero-team builder.",
+      "outline_weight": "Heavy comic-book inking with strong silhouettes",
+      "background_density": "Medium – city skylines, burst shapes, simple panel borders",
+      "detail_level": "Medium – muscles and costumes as large simple shapes",
+      "coloring_spaces": "Large costume panels and capes; avoid fine cross-hatching",
+      "prompt_style": "classic superhero comic line art, bold inking, dynamic action pose, cape, burst lines, no cross-hatching",
+      "avoid_extra": [
+        "existing superhero costumes, chest emblems or logos",
+        "cross-hatching or heavy black shadows",
+        "real company or team names"
+      ],
+      "subjects": [
+        "an original kid superhero",
+        "an original caped hero",
+        "an original hero sidekick pet",
+        "an original gadget-genius hero",
+        "an original speedster hero"
+      ],
+      "activities": [
+        [
+          "flying over the city",
+          "a skyline with fluffy clouds"
+        ],
+        [
+          "lifting a giant boulder",
+          "a rocky canyon"
+        ],
+        [
+          "rescuing a kitten from a tree",
+          "a quiet neighbourhood street"
+        ],
+        [
+          "training at the team headquarters",
+          "a high-tech hideout"
+        ],
+        [
+          "stopping a runaway train",
+          "railway bridge over a river"
+        ],
+        [
+          "helping clean up the park",
+          "a sunny city park"
+        ],
+        [
+          "unveiling a new gadget",
+          "a busy workshop"
+        ],
+        [
+          "posing for a team photo",
+          "in front of the team headquarters"
+        ]
+      ],
+      "compositions": [
+        "low-angle hero pose against the sky",
+        "comic panel border with burst lines",
+        "action diagonal with motion lines",
+        "team lined up side by side",
+        "close-up of the hero's emblem and smile"
+      ],
+      "ages": "5–10",
+      "best_for": "Original hero teams (made with the hero-team builder)",
+      "master_style": "Coloring book page. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Classic superhero comic line art for original heroes: bold inking, strong silhouettes, dynamic action pose, capes and costumes as large simple panels, burst or motion lines kept large. No cross-hatching, no heavy black shadows, no existing emblems or logos."
+    },
+    "anime_inspired": {
+      "label": "Anime-inspired (original characters)",
+      "description": "Big expressive eyes, dynamic poses, speed lines and dramatic angles, drawn as clean line art for your own characters.",
+      "outline_weight": "Clean, confident ink lines with slightly thinner interior detail lines",
+      "background_density": "Medium – simple scenery, speed lines or sparkle accents",
+      "detail_level": "Medium – hair locks and clothing folds kept as large shapes",
+      "coloring_spaces": "Large hair and clothing shapes; avoid hatching and screentone patterns",
+      "prompt_style": "anime-inspired line art, large expressive eyes, dynamic pose, clean ink lines, no screentone",
+      "avoid_extra": [
+        "screentone or halftone shading",
+        "copying any existing anime character, outfit, hairstyle or logo",
+        "Japanese or other text inside the art"
+      ],
+      "subjects": [
+        "an original anime-style kid hero",
+        "an original magical-girl-style heroine",
+        "an original cheerful robot companion",
+        "an original ninja-in-training",
+        "an original spirit-fox friend"
+      ],
+      "activities": [
+        [
+          "striking a heroic pose",
+          "a rooftop at sunset with speed lines"
+        ],
+        [
+          "casting a sparkly spell",
+          "a magical forest clearing"
+        ],
+        [
+          "training with a wooden sword",
+          "a quiet dojo courtyard"
+        ],
+        [
+          "racing on a hoverboard",
+          "a futuristic city street"
+        ],
+        [
+          "sharing a picnic with friends",
+          "under a cherry tree"
+        ],
+        [
+          "riding a giant friendly creature",
+          "rolling green hills"
+        ],
+        [
+          "discovering a glowing crystal",
+          "a mysterious cave"
+        ],
+        [
+          "cheering at a festival",
+          "lantern-lined market street"
+        ]
+      ],
+      "compositions": [
+        "dynamic three-quarter pose with speed lines",
+        "close-up with big expressive eyes",
+        "low-angle action pose",
+        "two friends back to back",
+        "wide scene with character small against a big sky"
+      ],
+      "ages": "6–12",
+      "best_for": "Older kids who like anime looks, with your own characters",
+      "master_style": "Coloring book page. Pure white background, black line art only: no gray, no shading, no hatching, no tiny patterns or textures. Every shape is fully closed so it can be colored in. Portrait page with everything inside the margins. Anime-inspired line art for original characters: large expressive eyes, dynamic poses, clean ink lines with slightly thinner interior lines, hair and clothes as large shapes, no screentone. Speed lines or sparkles kept few and large."
+    },
+    "adult_pen_ink": {
+      "label": "Adult pen-and-ink (intricate)",
+      "description": "Fine-liner line art with stippling and cross-hatching textures for adult colorists. Uses fine-detail cleanup that keeps small dots and spaces.",
+      "outline_weight": "Fine, precise pen lines (0.1–0.3 mm fineliner look) with slightly bolder main contours",
+      "background_density": "Dense – full-page composition with botanical and organic patterns",
+      "detail_level": "High – intricate details for adult colorists",
+      "coloring_spaces": "Many small, crisp enclosed shapes plus some larger areas to rest the eye",
+      "prompt_style": "intricate indie pen-and-ink line art, fineliner style, delicate botanical stippling and organic woodgrain cross-hatching, crisp enclosed shapes",
+      "cleanup_mode": "fine",
+      "avoid": [
+        "gray shading or gradients",
+        "solid black backgrounds",
+        "color",
+        "text inside illustrations",
+        "copyrighted characters or brand logos"
+      ],
+      "subjects": [
+        "an original woodland fox",
+        "an original owl among branches",
+        "an original koi pond",
+        "an original mushroom cottage",
+        "an original sea turtle in coral"
+      ],
+      "activities": [
+        [
+          "resting among wildflowers",
+          "a dense botanical garden"
+        ],
+        [
+          "perched on a gnarled branch",
+          "an ancient forest"
+        ],
+        [
+          "gliding through patterned water",
+          "a lotus pond"
+        ],
+        [
+          "standing in a quiet clearing",
+          "towering ferns and mushrooms"
+        ],
+        [
+          "surrounded by blossoms",
+          "an overgrown greenhouse"
+        ]
+      ],
+      "compositions": [
+        "full-page composition, subject centered with patterns filling the background",
+        "subject framed by an ornamental border of leaves",
+        "close-up portrait filled with decorative textures"
+      ],
+      "ages": "Adults",
+      "best_for": "Intricate adult coloring books",
+      "master_style": "Black-and-white adult coloring book page, pure white background, no grayscale shading, intricate indie pen-and-ink line art, fineliner style, delicate botanical stippling and organic cross-hatching, crisp enclosed shapes, full-page composition with everything inside the margins."
+    }
+  }
+}

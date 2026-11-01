@@ -1,0 +1,1230 @@
+{
+  "assets": [
+    {
+      "asset_id": "ast_0065734d5f3742c2",
+      "name": "demo-26-crab-sailboat.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_84cdbc0b788440ee",
+          "sha256": "784b9c4e1d11908a3914418723a606695a8808bd0b69e733d056531deafa45eb",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_04172ded69d74ba5",
+      "name": "demo-39-bunny-beach_umbrella.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_fddbd87ad1ac4230",
+          "sha256": "29db92d79ce8948c7109add363cce00007adbbac61d3d109a70ed3fc32324f69",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_04aa0f90243540d2",
+      "name": "demo-30-piglet-sailboat.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_2ae6a74b05a14f0a",
+          "sha256": "ecef0d58c244197b5f94d57567f773550dc565fe552e7db7a7f1e30aafd06ae3",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_1463d6749d854f9b",
+      "name": "demo-40-kitten-beach_umbrella.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_7ca8f25cebec40dd",
+          "sha256": "5851066793b44602414606e43e35c693ae303f136004329da15f64d33db55384",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_3099281ff6ff48e4",
+      "name": "demo-07-bunny-palm_beach.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_67b10256e43e4869",
+          "sha256": "801b3c8a6b32ab5e15e6878e3a518bbb80fef8ad621adba1424c563e0d256fbb",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_3161ca8782d744b1",
+      "name": "demo-03-parrot-palm_beach.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_8c4914adcd344b0e",
+          "sha256": "ceac05c95cebeed6f2f019840f38c948dfd79eee20cab735e36a3633be1fb137",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_370a7b1bc6e14bfe",
+      "name": "demo-08-kitten-palm_beach.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_a80fefbab3af4ad7",
+          "sha256": "e07b2dd7250533e7d94e69a596b643760dcfbf5d025fe27cb6cfeff9c67aca6f",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_38daf95181884150",
+      "name": "demo-31-bunny-sailboat.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_fd0678e4038e452f",
+          "sha256": "07d6d69d1d3d90c6bbf53861f92ba7d715528ecb178b30ed9ae66415c1abeea6",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_3c100ef5f7e54927",
+      "name": "demo-18-crab-surfing.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_daed78711f6b456d",
+          "sha256": "14afeb3a857e3297aa62ab18911a50bc6031ab22b92429c9a6872533bcca3e78",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_3d35dcaa4ac14990",
+      "name": "demo-10-crab-sandcastle.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_71ab81d7816b404d",
+          "sha256": "39a345086051bebfedb9dca5bfcebefa903f2b64c584d50abeacdb65a965d6d3",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_3fc8efe683e442f4",
+      "name": "demo-12-monkey-sandcastle.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_8f1735706f6042b8",
+          "sha256": "72d57e7a22f629b4139f75efe230178d7ec2b03a6a07e016de622d1e9c2647bb",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_48538986fe934da8",
+      "name": "demo-01-turtle-palm_beach.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_7a0aafc4a12647ac",
+          "sha256": "ecc567276e782e4dcf5e6a6d3f44f017cf565d2540d6153f2fa54301de531160",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_49d6a62070f54342",
+      "name": "demo-13-frog-sandcastle.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_6895f8c50efa42dd",
+          "sha256": "b759d43e53892398433e238d71621c568e9437fadddff5543162d5614bab618f",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_4bf0c027506948e6",
+      "name": "demo-20-monkey-surfing.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_fd9a1e2f8f214430",
+          "sha256": "58c2f326c43aea2a48ea806eb34b0f9ec24e83651f3b0d2f5a0b5a8cd4fc0e11",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_505289c8c93f4ad2",
+      "name": "demo-21-frog-surfing.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_bcf1acac205c4959",
+          "sha256": "baeb4e431b8ac8dc7c80413362b95c548fbfd2d105a1fb674cfd6129dc6c3a13",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_53a944410bd549d4",
+      "name": "demo-14-piglet-sandcastle.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_f61cf806b1994284",
+          "sha256": "8c41009727a7cee34b206fd419b05e2c7c1a8ff27663381b86268a2adce847ae",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_57ca384e105e45d5",
+      "name": "demo-19-parrot-surfing.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_63bd62d324d7416b",
+          "sha256": "29d38a27b813fa81404a0c32aafce571875d8b841f28abddff5060fbc2e88256",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_5bdd8a236b084c85",
+      "name": "demo-05-frog-palm_beach.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_1174bbc7837c4a04",
+          "sha256": "02f2741a687a6709705c705af15057c385e1f39b0a3177b41abb6c6128ad4bc3",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_60e0a5d8b2304873",
+      "name": "demo-17-turtle-surfing.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_1349d8eeb5864668",
+          "sha256": "cdb45ce5bb676935fabf260142abd4a21c496172b2f4331aec09c57e593db919",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_60e638ad952a4f2b",
+      "name": "demo-25-turtle-sailboat.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_0f7e4f93462e41ec",
+          "sha256": "0e31c62bfb781a436ff15a3f2de3935633c2130f8b287fc02423d032fdd6f120",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_62d10e82514844c0",
+      "name": "demo-37-frog-beach_umbrella.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_588531c307ff4789",
+          "sha256": "ff706c804d21b3622321a24566de1c7252189d11c6bf465d10d813c1c447ebaa",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_6993cad7337d430d",
+      "name": "demo-35-parrot-beach_umbrella.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_09ae98e1a8d0453c",
+          "sha256": "b760f8e153c0ee436c06c31c0c407aaac4caa954a190b7c8ba5a04955257bb4c",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_7374dfc961ee447d",
+      "name": "demo-23-bunny-surfing.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_2127ce08bbac49f1",
+          "sha256": "8896c9ed2c89d226948a77bb0d006922f3b253b2deab404553fc2d80d0febd0c",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_79e3a3a2c4d44c07",
+      "name": "demo-33-turtle-beach_umbrella.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_9d9c1eadf19b4d71",
+          "sha256": "5b2eafef8e2561d63ec96178a9d4ec79a91933eb29573a878a47cd8a542eb4a3",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_7a9fe2261d564409",
+      "name": "demo-34-crab-beach_umbrella.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_b8e21b8e302a49c5",
+          "sha256": "739c0e80ebd121f4a4a9b1f831b8518c28341ad04837f31959ab65bd7d20a11f",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_7cee6effec664867",
+      "name": "demo-27-parrot-sailboat.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_a4e3c0cc59234c3d",
+          "sha256": "260072259c05e2b233d9dba030bdf20d1607a36c10e7e606112cd9ddecf40f2f",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_80a0d00991624a9b",
+      "name": "demo-15-bunny-sandcastle.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_866e47c33e6a4c8b",
+          "sha256": "26aeee52f57e080010ef381d315f4df8043c19598a9876725b18e5ed76a89459",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_80f0ef8a232f46ba",
+      "name": "cover-demo-01-turtle-palm_beach.png",
+      "kind": "cover_art",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": {
+        "derivation": "automatic region color fill (colorize)",
+        "derived_from_asset": "ast_48538986fe934da8",
+        "derived_from_version": "ver_7a0aafc4a12647ac"
+      },
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_ebaeefca6f794d2e",
+          "sha256": "6f37b605cc6082d34040edae280650640e8bb558f5662f0e15a7b66d50c8aa5a",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_840a9441a07d4cc1",
+      "name": "demo-06-piglet-palm_beach.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_d6944e2faae94b60",
+          "sha256": "c71109e94f5128530478543f9b69a70b6221067bbe0045403319e0206186f118",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_85641c29d6aa4f2c",
+      "name": "demo-32-kitten-sailboat.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_bc6dacaf7a9a4cd4",
+          "sha256": "fcfda83607245c4353239e90fa751db2304bd14fcb7b5b8f596cf2e05a57a528",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_8594e082d30e4641",
+      "name": "demo-38-piglet-beach_umbrella.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_8d0b4a8f8037460b",
+          "sha256": "868ac4433f50d5386f9bd52fa100cdcb1dfc4ec1112df6752f1653f9295f8de0",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_8b7e61e999f242f0",
+      "name": "demo-11-parrot-sandcastle.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_ee2412a448ac43f9",
+          "sha256": "ef4f7b623dd7c92f6a729583bf8b15ff3b3984786d99662ab988821c68b677c1",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_c6c90b517603403a",
+      "name": "demo-16-kitten-sandcastle.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_2129494f82f84b5a",
+          "sha256": "47627d29016e8432f7cbf8dc7684bc5de71d5347439409d4c90fa2932bf14e8c",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_e10a5ba34fe54db7",
+      "name": "demo-04-monkey-palm_beach.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_4d1f2ba613e74144",
+          "sha256": "350fef935ab693973c527fe2b53338bb53176de9f9c745c2d92e89ff25179684",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_e38d1653b0f44bc8",
+      "name": "demo-28-monkey-sailboat.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_67dbe520cc5e4556",
+          "sha256": "dc9772265eb915e78273d779ef81bed52a80077b718871243bc4ff6ae1d21a1c",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_e74da3405255409b",
+      "name": "demo-36-monkey-beach_umbrella.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_3490de111009405d",
+          "sha256": "ae5f88fdb21365db475dc6ea6f3c90cb9cc8a96cf0432d283ce3d340fa699f61",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_f03267bf45554899",
+      "name": "demo-24-kitten-surfing.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_6b6c26a69e3a412d",
+          "sha256": "9af326bcb2683d09662bb22fee22787db3767fa88565c75f6eb43de7e8961333",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_f14b9c29a3894daf",
+      "name": "demo-29-frog-sailboat.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_80eb0e2140ac44ea",
+          "sha256": "3fa40ae9873309446906af28b5951e94333f43be7699dd925d2343a129488334",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_f761883c8cbf4ee2",
+      "name": "demo-02-crab-palm_beach.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_abe41dbe967547b5",
+          "sha256": "8b20a2028aff2498d8da1e29f28d5fa6e75a6f92ee66e51af4a30f5dd6e81e4c",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_f9b46d96a29545fe",
+      "name": "demo-22-piglet-surfing.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_a3eeb13b422745ba",
+          "sha256": "3c95e823fbf729b7c68030270ceed3f7ca7ded974f5cd37dd0e90bd016f238c0",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    },
+    {
+      "asset_id": "ast_fef9d4aa318743c6",
+      "name": "demo-09-turtle-sandcastle.png",
+      "kind": "artwork",
+      "source_type": "demo_sample",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "rights_declaration": "unknown",
+      "ai_involvement": "none",
+      "generation": null,
+      "review_status": "unreviewed",
+      "review_notes": null,
+      "is_demo": true,
+      "versions_used": [
+        {
+          "version_id": "ver_7c4d33c348804d36",
+          "sha256": "b5c8c824609d8877149bbb5e1adb31e5ba5aea9413f9026787383e07a7ab02c8",
+          "parent_version_id": null,
+          "operation": {
+            "type": "original_import"
+          },
+          "width_px": 2250,
+          "height_px": 3000,
+          "original_width_px": 2250,
+          "upscaled": false
+        }
+      ]
+    }
+  ],
+  "ai_disclosure_proposal": {
+    "status": "PROPOSED \u2013 verify before answering KDP's AI-content questions yourself. This app never submits disclosures.",
+    "source": "https://kdp.amazon.com/en_US/help/topic/G200672390",
+    "definitions": {
+      "ai_generated": "Content (text, images or translations) created by an AI tool counts as AI-generated, even if you substantially edited it afterwards.",
+      "ai_assisted": "You created the content yourself and used AI tools to edit, refine, error-check or brainstorm; KDP does not require disclosing AI-assisted content (check the current guideline).",
+      "brainstorming_note": "Using AI only for ideas, then drawing every illustration yourself, is a different case from AI-created artwork."
+    },
+    "images": {
+      "interior": {
+        "total": 40,
+        "ai_generated": 0,
+        "ai_assisted": 0,
+        "no_ai": 40,
+        "unknown": 0,
+        "proposed_answer": "No AI-generated images recorded"
+      },
+      "cover": {
+        "total": 4,
+        "ai_generated": 0,
+        "ai_assisted": 0,
+        "no_ai": 4,
+        "unknown": 0,
+        "proposed_answer": "No AI-generated images recorded"
+      }
+    },
+    "text": {
+      "declared": "none"
+    },
+    "translations": {
+      "declared": "not_applicable"
+    }
+  }
+}

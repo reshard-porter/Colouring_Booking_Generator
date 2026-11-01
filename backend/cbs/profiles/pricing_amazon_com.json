@@ -1,0 +1,29 @@
+{
+  "id": "amazon_com_paperback_2026-10-30",
+  "marketplace": "Amazon.com",
+  "currency": "USD",
+  "version": "2026-10-30",
+  "checked_on": "2026-10-30",
+  "effective_note": "Reference values read from KDP's Paperback Printing Cost and Paperback Royalty help pages on 2026-10-30. This is a dated reference profile, not live data. Confirm with the official calculator.",
+  "sources": {
+    "printing_cost": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+    "royalties": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+    "official_calculator": "https://kdp.amazon.com/en_US/royalty-calculator"
+  },
+  "formats": ["paperback"],
+  "large_trim_rule": "Width more than 6.12 in or height more than 9 in",
+  "printing_cost_bands": [
+    {"ink": "black", "trim_category": "regular", "min_pages": 24, "max_pages": 110, "fixed": "2.30", "per_page": "0"},
+    {"ink": "black", "trim_category": "regular", "min_pages": 111, "max_pages": 828, "fixed": "1.00", "per_page": "0.012"},
+    {"ink": "black", "trim_category": "large", "min_pages": 24, "max_pages": 110, "fixed": "2.84", "per_page": "0"},
+    {"ink": "black", "trim_category": "large", "min_pages": 111, "max_pages": 828, "fixed": "1.00", "per_page": "0.017"}
+  ],
+  "royalty_tiers": [
+    {"max_price": "9.98", "rate": "0.50"},
+    {"min_price": "9.99", "rate": "0.60"}
+  ],
+  "expanded_distribution": {
+    "enabled": false,
+    "note": "Expanded Distribution is kept separate and disabled by default. Eligibility depends on the specific book (trim, paper, ISBN choice); do not assume a coloring book qualifies."
+  }
+}

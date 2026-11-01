@@ -1,0 +1,25 @@
+{
+  "profile_id": "amazon_com_paperback_2026-10-30",
+  "marketplace": "Amazon.com",
+  "currency": "USD",
+  "checked_on": "2026-10-30",
+  "sources": {
+    "official_calculator": "https://kdp.amazon.com/en_US/royalty-calculator",
+    "printing_cost": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+    "royalties": "https://kdp.amazon.com/en_US/help/topic/G201834330"
+  },
+  "note": "Reference values read from KDP's Paperback Printing Cost and Paperback Royalty help pages on 2026-10-30. This is a dated reference profile, not live data. Confirm with the official calculator.",
+  "formula": "Estimated royalty = royalty rate \u00d7 tax-exclusive list price \u2212 printing cost",
+  "list_price": "9.99",
+  "page_count": 84,
+  "trim_category": "large",
+  "printing_cost": "2.84",
+  "royalty_rate": "0.60",
+  "royalty_per_copy_exact": "3.1540",
+  "royalty_per_copy": "3.15",
+  "royalty_negative": false,
+  "expanded_distribution": {
+    "enabled": false,
+    "note": "Expanded Distribution is kept separate and disabled by default. Eligibility depends on the specific book (trim, paper, ISBN choice); do not assume a coloring book qualifies."
+  }
+}

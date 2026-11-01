@@ -1,0 +1,3785 @@
+{
+  "assembly": {
+    "blank_count": 40,
+    "illustration_count": 40,
+    "intro_count": 4,
+    "page_count": 84,
+    "pages": [
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "align": "center",
+            "bold": true,
+            "h": 2.2,
+            "id": "el_73ffb66bf3824f54",
+            "kind": "text",
+            "size_pt": 44,
+            "text": "Cute Island Adventures",
+            "w": 7.0,
+            "x": 0.75,
+            "y": 2.6,
+            "z": 0
+          },
+          {
+            "align": "center",
+            "bold": false,
+            "h": 1.0,
+            "id": "el_bab0cf3bbc1d4b98",
+            "kind": "text",
+            "size_pt": 20,
+            "text": "A Coloring Book for Kids Ages 4\u20137",
+            "w": 7.0,
+            "x": 0.75,
+            "y": 5.0,
+            "z": 1
+          },
+          {
+            "align": "center",
+            "bold": false,
+            "h": 0.6,
+            "id": "el_7ec48f19c9c6485f",
+            "kind": "text",
+            "size_pt": 16,
+            "text": "Your Name",
+            "w": 7.0,
+            "x": 0.75,
+            "y": 9.2,
+            "z": 2
+          }
+        ],
+        "kind": "intro",
+        "label": "Title page",
+        "number": 1,
+        "page_id": "pg_4a2f40c3d02d48eb",
+        "scene_id": null,
+        "side": "recto"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "align": "center",
+            "bold": true,
+            "h": 1.0,
+            "id": "el_6206bfbe9bc44bdb",
+            "kind": "text",
+            "size_pt": 30,
+            "text": "This book belongs to:",
+            "w": 7.0,
+            "x": 0.75,
+            "y": 3.4,
+            "z": 0
+          },
+          {
+            "h": 0,
+            "id": "el_f797e3b1a3124be4",
+            "kind": "shape",
+            "shape": "line",
+            "stroke_pt": 3,
+            "w": 5.5,
+            "x": 1.5,
+            "y": 5.6,
+            "z": 1
+          }
+        ],
+        "kind": "intro",
+        "label": "This book belongs to",
+        "number": 2,
+        "page_id": "pg_ee3295ad6f074bf9",
+        "scene_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "align": "center",
+            "bold": true,
+            "h": 0.8,
+            "id": "el_b04f7bf790764cb3",
+            "kind": "text",
+            "size_pt": 28,
+            "text": "Test your colors!",
+            "w": 7.0,
+            "x": 0.75,
+            "y": 0.9,
+            "z": 0
+          },
+          {
+            "h": 1.3,
+            "id": "el_d8467ad391b34ab6",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 0.95,
+            "y": 2.1,
+            "z": 1
+          },
+          {
+            "h": 1.3,
+            "id": "el_43c849d3dd51403a",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 2.65,
+            "y": 2.1,
+            "z": 2
+          },
+          {
+            "h": 1.3,
+            "id": "el_f7f2886636b64cbe",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 4.35,
+            "y": 2.1,
+            "z": 3
+          },
+          {
+            "h": 1.3,
+            "id": "el_13fcb50bce734302",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 6.05,
+            "y": 2.1,
+            "z": 4
+          },
+          {
+            "h": 1.3,
+            "id": "el_62c2a0584ef14a1c",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 0.95,
+            "y": 3.75,
+            "z": 5
+          },
+          {
+            "h": 1.3,
+            "id": "el_6f456134030f40a0",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 2.65,
+            "y": 3.75,
+            "z": 6
+          },
+          {
+            "h": 1.3,
+            "id": "el_8846e1c448d94aa9",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 4.35,
+            "y": 3.75,
+            "z": 7
+          },
+          {
+            "h": 1.3,
+            "id": "el_e3d82bf67a2548f1",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 6.05,
+            "y": 3.75,
+            "z": 8
+          },
+          {
+            "h": 1.3,
+            "id": "el_0eac4f604a654322",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 0.95,
+            "y": 5.4,
+            "z": 9
+          },
+          {
+            "h": 1.3,
+            "id": "el_6a592bffcba54a18",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 2.65,
+            "y": 5.4,
+            "z": 10
+          },
+          {
+            "h": 1.3,
+            "id": "el_627a84c5b5704e34",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 4.35,
+            "y": 5.4,
+            "z": 11
+          },
+          {
+            "h": 1.3,
+            "id": "el_5d9f0dd7d33d46c8",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 6.05,
+            "y": 5.4,
+            "z": 12
+          },
+          {
+            "h": 1.3,
+            "id": "el_be24950adc2e41b2",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 0.95,
+            "y": 7.049999999999999,
+            "z": 13
+          },
+          {
+            "h": 1.3,
+            "id": "el_5b8cadbc021542c2",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 2.65,
+            "y": 7.049999999999999,
+            "z": 14
+          },
+          {
+            "h": 1.3,
+            "id": "el_5cb03b76741b4f97",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 4.35,
+            "y": 7.049999999999999,
+            "z": 15
+          },
+          {
+            "h": 1.3,
+            "id": "el_02e7f1ce3d4f493b",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 6.05,
+            "y": 7.049999999999999,
+            "z": 16
+          },
+          {
+            "h": 1.3,
+            "id": "el_bdb1c9b2e9c14c14",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 0.95,
+            "y": 8.7,
+            "z": 17
+          },
+          {
+            "h": 1.3,
+            "id": "el_35a28d8fe50343e6",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 2.65,
+            "y": 8.7,
+            "z": 18
+          },
+          {
+            "h": 1.3,
+            "id": "el_a7a55ea44fd74b97",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 4.35,
+            "y": 8.7,
+            "z": 19
+          },
+          {
+            "h": 1.3,
+            "id": "el_1523440f86c04137",
+            "kind": "shape",
+            "shape": "rect",
+            "stroke_pt": 2.5,
+            "w": 1.4,
+            "x": 6.05,
+            "y": 8.7,
+            "z": 20
+          }
+        ],
+        "kind": "intro",
+        "label": "Color test page",
+        "number": 3,
+        "page_id": "pg_1b040e8489c84383",
+        "scene_id": null,
+        "side": "recto"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "align": "left",
+            "bold": false,
+            "h": 6.5,
+            "id": "el_e50cee5622bd4740",
+            "kind": "text",
+            "size_pt": 13,
+            "text": "Copyright \u00a9 2026 Your Name. All rights reserved.\n\nColoring tips:\n\u2022 Slip a sheet of paper behind the page you are coloring.\n\u2022 Each picture is printed on one side only.\n\u2022 There is no wrong way to color!\n\nSample project note: the illustrations in this demonstration project were drawn procedurally by Coloring Book Studio as placeholders. Replace them with your own or properly licensed artwork before publishing.",
+            "w": 6.7,
+            "x": 0.9,
+            "y": 2.0,
+            "z": 0
+          }
+        ],
+        "kind": "intro",
+        "label": "Copyright & tips",
+        "number": 4,
+        "page_id": "pg_cbbd4bdb04334013",
+        "scene_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_7a0aafc4a12647ac",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_b8c53b8ff1b847ff",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "1. friendly cartoon turtle waving hello",
+        "number": 5,
+        "page_id": "pg_80c4482d101a495c",
+        "scene_id": "scn_ec8618bf9dcd48db",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 6,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_abe41dbe967547b5",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_27b7e1b7535740b3",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "2. friendly cartoon crab waving hello",
+        "number": 7,
+        "page_id": "pg_b4ed5eadf2a14a00",
+        "scene_id": "scn_a2df1a7288234161",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 8,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_8c4914adcd344b0e",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_b01dbfb669a34afa",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "3. friendly cartoon parrot waving hello",
+        "number": 9,
+        "page_id": "pg_420cf0269e8f41d7",
+        "scene_id": "scn_c914725608574833",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 10,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_4d1f2ba613e74144",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_062ccb34fd514157",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "4. friendly cartoon monkey waving hello",
+        "number": 11,
+        "page_id": "pg_8e15d9ec29ae4789",
+        "scene_id": "scn_658a7812a1a441e7",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 12,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_1174bbc7837c4a04",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_c0d3978778704be7",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "5. friendly cartoon frog waving hello",
+        "number": 13,
+        "page_id": "pg_896a2dfdc0964b1d",
+        "scene_id": "scn_fb43a6d81ab24ba1",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 14,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_d6944e2faae94b60",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_0899d36f2bbd4b35",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "6. friendly cartoon piglet waving hello",
+        "number": 15,
+        "page_id": "pg_85893da0b65d4ab5",
+        "scene_id": "scn_b1da51cfd57b429a",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 16,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_67b10256e43e4869",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_a9186a9f2d3c477e",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "7. friendly cartoon bunny waving hello",
+        "number": 17,
+        "page_id": "pg_acbb74f3bb724760",
+        "scene_id": "scn_bd4952fa184b4b51",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 18,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_a80fefbab3af4ad7",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_824908ad9dd44f15",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "8. friendly cartoon kitten waving hello",
+        "number": 19,
+        "page_id": "pg_2477d2c1f64549a4",
+        "scene_id": "scn_f134052cce974c4c",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 20,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_7c4d33c348804d36",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_f177600af3594f79",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "9. friendly cartoon turtle building a sandcastle",
+        "number": 21,
+        "page_id": "pg_0eb2eb296fce47d0",
+        "scene_id": "scn_5d7ad32fbdf542df",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 22,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_71ab81d7816b404d",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_d606d4963daa40b2",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "10. friendly cartoon crab building a sandcastle",
+        "number": 23,
+        "page_id": "pg_51e4ac4e191344e6",
+        "scene_id": "scn_a154a78ac71d4353",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 24,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_ee2412a448ac43f9",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_f2e42cf74c8b4e4f",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "11. friendly cartoon parrot building a sandcastle",
+        "number": 25,
+        "page_id": "pg_b1776ff5e982451f",
+        "scene_id": "scn_6256fb908b694b63",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 26,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_8f1735706f6042b8",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_da5e4ef441c94e68",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "12. friendly cartoon monkey building a sandcastle",
+        "number": 27,
+        "page_id": "pg_959335001a9c42bd",
+        "scene_id": "scn_3d9482b177e8461e",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 28,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_6895f8c50efa42dd",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_0d167701cfcc47f0",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "13. friendly cartoon frog building a sandcastle",
+        "number": 29,
+        "page_id": "pg_8c5502f5a9504df8",
+        "scene_id": "scn_7a3cf2c4a3c64201",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 30,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_f61cf806b1994284",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_2370fd5fe1004434",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "14. friendly cartoon piglet building a sandcastle",
+        "number": 31,
+        "page_id": "pg_db187ecb66404c05",
+        "scene_id": "scn_2bdfc0c7e23043d4",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 32,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_866e47c33e6a4c8b",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_ece07c2cbe9d43dc",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "15. friendly cartoon bunny building a sandcastle",
+        "number": 33,
+        "page_id": "pg_e743f3dfff734f3e",
+        "scene_id": "scn_33fc45b9530e4421",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 34,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_2129494f82f84b5a",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_9fb756d6d3d041be",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "16. friendly cartoon kitten building a sandcastle",
+        "number": 35,
+        "page_id": "pg_b7d7b0c78d1d45ab",
+        "scene_id": "scn_25dc0239f33e4688",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 36,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_1349d8eeb5864668",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_bade0000aa544303",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "17. friendly cartoon turtle riding a surfboard",
+        "number": 37,
+        "page_id": "pg_2d3b7a7fc0c840b4",
+        "scene_id": "scn_d0b69ebcb64c4bd7",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 38,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_daed78711f6b456d",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_abbc78eeda264a2b",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "18. friendly cartoon crab riding a surfboard",
+        "number": 39,
+        "page_id": "pg_e4723065623d4bd6",
+        "scene_id": "scn_e934bc58a0264ebe",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 40,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_63bd62d324d7416b",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_bf5332fedf174ab3",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "19. friendly cartoon parrot riding a surfboard",
+        "number": 41,
+        "page_id": "pg_66464e15ff114192",
+        "scene_id": "scn_07dc5d6e7f76455f",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 42,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_fd9a1e2f8f214430",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_9bde0c8ad92741f2",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "20. friendly cartoon monkey riding a surfboard",
+        "number": 43,
+        "page_id": "pg_6b3cc412472545bc",
+        "scene_id": "scn_a5d0d4a5968d44b8",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 44,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_bcf1acac205c4959",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_da5b1fa033c2465d",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "21. friendly cartoon frog riding a surfboard",
+        "number": 45,
+        "page_id": "pg_766071ad2f3d4284",
+        "scene_id": "scn_509e8a795ea74683",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 46,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_a3eeb13b422745ba",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_719ce8dd8ce14cc2",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "22. friendly cartoon piglet riding a surfboard",
+        "number": 47,
+        "page_id": "pg_8bea1254ae3540ba",
+        "scene_id": "scn_4d831f0681f84fa6",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 48,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_2127ce08bbac49f1",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_e211e88d919e4314",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "23. friendly cartoon bunny riding a surfboard",
+        "number": 49,
+        "page_id": "pg_01955ccedeac4bca",
+        "scene_id": "scn_6f690eb75bee49e1",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 50,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_6b6c26a69e3a412d",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_a445afb6704148d6",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "24. friendly cartoon kitten riding a surfboard",
+        "number": 51,
+        "page_id": "pg_a8b070a72bb74ceb",
+        "scene_id": "scn_0625d0a96cde4eb4",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 52,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_0f7e4f93462e41ec",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_d9075cb0faf74b77",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "25. friendly cartoon turtle sailing a little boat",
+        "number": 53,
+        "page_id": "pg_10240bb6dece414f",
+        "scene_id": "scn_c066d40f31e24dcb",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 54,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_84cdbc0b788440ee",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_fc267542fab5487e",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "26. friendly cartoon crab sailing a little boat",
+        "number": 55,
+        "page_id": "pg_d93607db17894ea8",
+        "scene_id": "scn_d8886bd43f5a41f6",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 56,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_a4e3c0cc59234c3d",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_122284fbcfac4888",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "27. friendly cartoon parrot sailing a little boat",
+        "number": 57,
+        "page_id": "pg_6b8d5cf4314d489d",
+        "scene_id": "scn_cd01452c739b4d48",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 58,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_67dbe520cc5e4556",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_879c85bb8fcd4056",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "28. friendly cartoon monkey sailing a little boat",
+        "number": 59,
+        "page_id": "pg_55f08c5f07d44ac9",
+        "scene_id": "scn_ed8179069cce431d",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 60,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_80eb0e2140ac44ea",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_befefc604bd74f53",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "29. friendly cartoon frog sailing a little boat",
+        "number": 61,
+        "page_id": "pg_86008a77b27045c3",
+        "scene_id": "scn_6c96912460d64adb",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 62,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_2ae6a74b05a14f0a",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_b8a8b05886074637",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "30. friendly cartoon piglet sailing a little boat",
+        "number": 63,
+        "page_id": "pg_a22f62305a674e65",
+        "scene_id": "scn_068f046996fc458f",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 64,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_fd0678e4038e452f",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_784942bc253446c7",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "31. friendly cartoon bunny sailing a little boat",
+        "number": 65,
+        "page_id": "pg_5063dde6f3734993",
+        "scene_id": "scn_cd569e6b53a54dc5",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 66,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_bc6dacaf7a9a4cd4",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_90bacb4278ad4893",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "32. friendly cartoon kitten sailing a little boat",
+        "number": 67,
+        "page_id": "pg_36079b8af4e24e6b",
+        "scene_id": "scn_a8f4b8dab90c4213",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 68,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_9d9c1eadf19b4d71",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_6db40306dc474f53",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "33. friendly cartoon turtle enjoying an ice cream",
+        "number": 69,
+        "page_id": "pg_7ef6305280934db1",
+        "scene_id": "scn_b11dfa5ce7e64ddf",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 70,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_b8e21b8e302a49c5",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_831c11f4a027490f",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "34. friendly cartoon crab enjoying an ice cream",
+        "number": 71,
+        "page_id": "pg_d4f035a021504d03",
+        "scene_id": "scn_6affd8fbd04f46ac",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 72,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_09ae98e1a8d0453c",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_e88c5292fa4944b3",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "35. friendly cartoon parrot enjoying an ice cream",
+        "number": 73,
+        "page_id": "pg_c2c91eae08c54fa1",
+        "scene_id": "scn_65046ba1efc949f3",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 74,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_3490de111009405d",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_8f39fe94f45d4f73",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "36. friendly cartoon monkey enjoying an ice cream",
+        "number": 75,
+        "page_id": "pg_7de8a56e05154daa",
+        "scene_id": "scn_48137de7986847d9",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 76,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_588531c307ff4789",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_e4b7bd9b8adb4221",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "37. friendly cartoon frog enjoying an ice cream",
+        "number": 77,
+        "page_id": "pg_732c0374a26c4938",
+        "scene_id": "scn_dd54ffe67e2b4a8f",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 78,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_8d0b4a8f8037460b",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_2b4217a983be4191",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "38. friendly cartoon piglet enjoying an ice cream",
+        "number": 79,
+        "page_id": "pg_9df22593e63641ae",
+        "scene_id": "scn_791c2ffd5e3e4920",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 80,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_fddbd87ad1ac4230",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_11f128c2c19c48a1",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "39. friendly cartoon bunny enjoying an ice cream",
+        "number": 81,
+        "page_id": "pg_7c446a99acb248f8",
+        "scene_id": "scn_db29344571b2490c",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 82,
+        "page_id": null,
+        "side": "verso"
+      },
+      {
+        "approved": false,
+        "blank_reason": null,
+        "elements": [
+          {
+            "asset_version_id": "ver_7ca8f25cebec40dd",
+            "crop": {
+              "b": 0,
+              "l": 0,
+              "r": 0,
+              "t": 0
+            },
+            "id": "el_163b052838e3479c",
+            "kind": "image",
+            "rotation": 0,
+            "w": 7.5,
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+          }
+        ],
+        "kind": "illustration",
+        "label": "40. friendly cartoon kitten enjoying an ice cream",
+        "number": 83,
+        "page_id": "pg_92390359c6c045fa",
+        "scene_id": "scn_15cf4590b0f243d8",
+        "side": "recto"
+      },
+      {
+        "blank_reason": "back",
+        "kind": "blank",
+        "number": 84,
+        "page_id": null,
+        "side": "verso"
+      }
+    ],
+    "parity_notes": []
+  },
+  "assets": {
+    "ast_0065734d5f3742c2": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-26-crab-sailboat.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_04172ded69d74ba5": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-39-bunny-beach_umbrella.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_04aa0f90243540d2": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-30-piglet-sailboat.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_1463d6749d854f9b": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-40-kitten-beach_umbrella.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_3099281ff6ff48e4": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-07-bunny-palm_beach.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_3161ca8782d744b1": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-03-parrot-palm_beach.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_370a7b1bc6e14bfe": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-08-kitten-palm_beach.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_38daf95181884150": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-31-bunny-sailboat.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_3c100ef5f7e54927": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-18-crab-surfing.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_3d35dcaa4ac14990": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-10-crab-sandcastle.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_3fc8efe683e442f4": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-12-monkey-sandcastle.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_48538986fe934da8": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-01-turtle-palm_beach.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_49d6a62070f54342": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-13-frog-sandcastle.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_4bf0c027506948e6": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-20-monkey-surfing.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_505289c8c93f4ad2": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-21-frog-surfing.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_53a944410bd549d4": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-14-piglet-sandcastle.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_57ca384e105e45d5": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-19-parrot-surfing.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_5bdd8a236b084c85": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-05-frog-palm_beach.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_60e0a5d8b2304873": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-17-turtle-surfing.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_60e638ad952a4f2b": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-25-turtle-sailboat.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_62d10e82514844c0": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-37-frog-beach_umbrella.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_6993cad7337d430d": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-35-parrot-beach_umbrella.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_7374dfc961ee447d": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-23-bunny-surfing.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_79e3a3a2c4d44c07": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-33-turtle-beach_umbrella.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_7a9fe2261d564409": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-34-crab-beach_umbrella.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_7cee6effec664867": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-27-parrot-sailboat.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_80a0d00991624a9b": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-15-bunny-sandcastle.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_80f0ef8a232f46ba": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "cover-demo-01-turtle-palm_beach.png",
+      "generation": {
+        "derivation": "automatic region color fill (colorize)",
+        "derived_from_asset": "ast_48538986fe934da8",
+        "derived_from_version": "ver_7a0aafc4a12647ac"
+      },
+      "is_demo": true,
+      "kind": "cover_art",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_840a9441a07d4cc1": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-06-piglet-palm_beach.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_85641c29d6aa4f2c": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-32-kitten-sailboat.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_8594e082d30e4641": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-38-piglet-beach_umbrella.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_8b7e61e999f242f0": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-11-parrot-sandcastle.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_c6c90b517603403a": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-16-kitten-sandcastle.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_e10a5ba34fe54db7": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-04-monkey-palm_beach.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_e38d1653b0f44bc8": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-28-monkey-sailboat.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_e74da3405255409b": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-36-monkey-beach_umbrella.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_f03267bf45554899": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-24-kitten-surfing.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_f14b9c29a3894daf": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-29-frog-sailboat.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_f761883c8cbf4ee2": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-02-crab-palm_beach.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_f9b46d96a29545fe": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-22-piglet-surfing.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    },
+    "ast_fef9d4aa318743c6": {
+      "ai_involvement": "none",
+      "creator": "Coloring Book Studio sample generator (procedural drawing code, not AI)",
+      "display_name": "demo-09-turtle-sandcastle.png",
+      "generation": null,
+      "is_demo": true,
+      "kind": "artwork",
+      "license": "Sample placeholder bundled with Coloring Book Studio. Not commercially reviewed. Replace or confirm before publishing.",
+      "license_evidence": null,
+      "review_notes": null,
+      "review_status": "unreviewed",
+      "rights_declaration": "unknown",
+      "source_type": "demo_sample"
+    }
+  },
+  "config": {
+    "interior_bleed": false,
+    "large_trim": true,
+    "paper_key": "bw_white",
+    "safe_margin": 0.5,
+    "spine_per_page": 0.002252,
+    "trim_h": 11.0,
+    "trim_key": "8.5x11",
+    "trim_w": 8.5
+  },
+  "cover": {
+    "data": {
+      "accent": "#ffd166",
+      "art_offset_x": 0.0,
+      "art_offset_y": 0.0,
+      "art_scale": 1.0,
+      "author": null,
+      "author_pt": 20,
+      "back_copy": "Grab your crayons and visit a sunny island full of friendly animals! Inside you will find 40 original illustrations with big, bold shapes made for little hands.\n\n\u2022 40 single-sided designs\n\u2022 Blank back on every page\n\u2022 8.5 \u00d7 11 in pages",
+      "back_copy_pt": 15,
+      "back_thumbnail_version_ids": [
+        "ver_71ab81d7816b404d",
+        "ver_63bd62d324d7416b",
+        "ver_67dbe520cc5e4556"
+      ],
+      "background": "#8fd3f4",
+      "front_art_version_id": "ver_ebaeefca6f794d2e",
+      "spine_text": null,
+      "spine_text_enabled": false,
+      "spine_text_pt": 10,
+      "subtitle": null,
+      "subtitle_pt": 22,
+      "template_opacity": 0.5,
+      "template_overlay_version_id": null,
+      "text_color": "#1d3557",
+      "title": null,
+      "title_color": "#1d3557",
+      "title_pt": 54
+    },
+    "geometry": {
+      "back": {
+        "h": 11.0,
+        "w": 8.5,
+        "x": 0.125,
+        "y": 0.125
+      },
+      "back_safe": {
+        "h": 10.5,
+        "w": 8.0,
+        "x": 0.375,
+        "y": 0.375
+      },
+      "barcode": {
+        "h": 1.2,
+        "w": 2.0,
+        "x": 6.375,
+        "y": 9.675
+      },
+      "bleed_in": 0.125,
+      "conflicts": [
+        "One indexed copy of the KDP cover page text mentions the barcode at the lower LEFT of the back cover, while the KDP barcode help pages (GDTKFJPNQCBTMRV6, G5HDYGP4BXLX4RUW) state the lower RIGHT. This app reserves the lower-right corner (used by both barcode pages) \u2014 confirm against your official cover template.",
+        "KDP prints spine text only on books with more than 79 pages. Third-party guides cite a ~0.2\u20130.25 in minimum spine width instead. The app requires BOTH the page-count rule and that the text fits between 0.0625 in fold clearances."
+      ],
+      "front": {
+        "h": 11.0,
+        "w": 8.5,
+        "x": 8.814168,
+        "y": 0.125
+      },
+      "front_safe": {
+        "h": 10.5,
+        "w": 8.0,
+        "x": 9.064168,
+        "y": 0.375
+      },
+      "full_height_in": 11.25,
+      "full_height_pt": 810.0,
+      "full_width_in": 17.439168,
+      "full_width_pt": 1255.62,
+      "page_count": 84,
+      "paper": "bw_white",
+      "profile_version": "kdp-paperback-2026-10-30",
+      "spine": {
+        "h": 11.0,
+        "w": 0.189168,
+        "x": 8.625,
+        "y": 0.125
+      },
+      "spine_coefficient_in": 0.002252,
+      "spine_safe": {
+        "h": 10.5,
+        "w": 0.064168,
+        "x": 8.6875,
+        "y": 0.375
+      },
+      "spine_text": {
+        "available_in": 0.064168,
+        "eligible": false,
+        "fits": false,
+        "page_rule_ok": true,
+        "reasons": [
+          "Usable spine width is 0.064 in after 0.0625 in fold clearances; 10.0 pt text needs 0.139 in."
+        ]
+      },
+      "spine_width_in": 0.189168
+    },
+    "stale": false,
+    "stale_reasons": []
+  },
+  "format": "coloring-book-studio-snapshot",
+  "format_version": 1,
+  "layout_revision": 1,
+  "listing": {
+    "age_range": "4\u20137",
+    "audience": "Children",
+    "author": "Your Name",
+    "category_notes": "Research categories yourself in KDP's category picker. This app does not provide category IDs or rankings.",
+    "competitor_notes": "",
+    "description": "Forty original cartoon animal scenes set on a sunny island: sandcastles, surfing, sailing and beach picnics. Every illustration is printed on its own page with a blank back to reduce marker bleed-through. Large shapes and bold outlines suit young colorists.",
+    "isbn_choice": "undecided",
+    "isbn_notes": "",
+    "keywords": [
+      "coloring book for kids",
+      "animal coloring book",
+      "beach coloring pages",
+      "toddler coloring",
+      "island animals",
+      "preschool activity book",
+      "summer coloring book"
+    ],
+    "language": "English",
+    "list_price": "9.99",
+    "subtitle": "A Coloring Book for Kids Ages 4\u20137",
+    "text_ai_involvement": "none",
+    "title": "Cute Island Adventures",
+    "translation_ai_involvement": "not_applicable"
+  },
+  "pricing_profile": {
+    "checked_on": "2026-10-30",
+    "currency": "USD",
+    "effective_note": "Reference values read from KDP's Paperback Printing Cost and Paperback Royalty help pages on 2026-10-30. This is a dated reference profile, not live data. Confirm with the official calculator.",
+    "expanded_distribution": {
+      "enabled": false,
+      "note": "Expanded Distribution is kept separate and disabled by default. Eligibility depends on the specific book (trim, paper, ISBN choice); do not assume a coloring book qualifies."
+    },
+    "formats": [
+      "paperback"
+    ],
+    "id": "amazon_com_paperback_2026-10-30",
+    "large_trim_rule": "Width more than 6.12 in or height more than 9 in",
+    "marketplace": "Amazon.com",
+    "printing_cost_bands": [
+      {
+        "fixed": "2.30",
+        "ink": "black",
+        "max_pages": 110,
+        "min_pages": 24,
+        "per_page": "0",
+        "trim_category": "regular"
+      },
+      {
+        "fixed": "1.00",
+        "ink": "black",
+        "max_pages": 828,
+        "min_pages": 111,
+        "per_page": "0.012",
+        "trim_category": "regular"
+      },
+      {
+        "fixed": "2.84",
+        "ink": "black",
+        "max_pages": 110,
+        "min_pages": 24,
+        "per_page": "0",
+        "trim_category": "large"
+      },
+      {
+        "fixed": "1.00",
+        "ink": "black",
+        "max_pages": 828,
+        "min_pages": 111,
+        "per_page": "0.017",
+        "trim_category": "large"
+      }
+    ],
+    "royalty_tiers": [
+      {
+        "max_price": "9.98",
+        "rate": "0.50"
+      },
+      {
+        "min_price": "9.99",
+        "rate": "0.60"
+      }
+    ],
+    "sources": {
+      "official_calculator": "https://kdp.amazon.com/en_US/royalty-calculator",
+      "printing_cost": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+      "royalties": "https://kdp.amazon.com/en_US/help/topic/G201834330"
+    },
+    "version": "2026-10-30"
+  },
+  "project": {
+    "id": "prj_b3210fdb4adc4e95",
+    "is_sample": true,
+    "name": "Cute Island Adventures (sample)"
+  },
+  "scenes": [
+    {
+      "action": "waving hello",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "turtle-palm_beach",
+      "id": "scn_ec8618bf9dcd48db",
+      "notes": "",
+      "position": 0,
+      "setting": "a sunny beach with a palm tree and seashells",
+      "subject": "A friendly cartoon turtle"
+    },
+    {
+      "action": "waving hello",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "crab-palm_beach",
+      "id": "scn_a2df1a7288234161",
+      "notes": "",
+      "position": 1,
+      "setting": "a sunny beach with a palm tree and seashells",
+      "subject": "A friendly cartoon crab"
+    },
+    {
+      "action": "waving hello",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "parrot-palm_beach",
+      "id": "scn_c914725608574833",
+      "notes": "",
+      "position": 2,
+      "setting": "a sunny beach with a palm tree and seashells",
+      "subject": "A friendly cartoon parrot"
+    },
+    {
+      "action": "waving hello",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "monkey-palm_beach",
+      "id": "scn_658a7812a1a441e7",
+      "notes": "",
+      "position": 3,
+      "setting": "a sunny beach with a palm tree and seashells",
+      "subject": "A friendly cartoon monkey"
+    },
+    {
+      "action": "waving hello",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "frog-palm_beach",
+      "id": "scn_fb43a6d81ab24ba1",
+      "notes": "",
+      "position": 4,
+      "setting": "a sunny beach with a palm tree and seashells",
+      "subject": "A friendly cartoon frog"
+    },
+    {
+      "action": "waving hello",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "piglet-palm_beach",
+      "id": "scn_b1da51cfd57b429a",
+      "notes": "",
+      "position": 5,
+      "setting": "a sunny beach with a palm tree and seashells",
+      "subject": "A friendly cartoon piglet"
+    },
+    {
+      "action": "waving hello",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "bunny-palm_beach",
+      "id": "scn_bd4952fa184b4b51",
+      "notes": "",
+      "position": 6,
+      "setting": "a sunny beach with a palm tree and seashells",
+      "subject": "A friendly cartoon bunny"
+    },
+    {
+      "action": "waving hello",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "kitten-palm_beach",
+      "id": "scn_f134052cce974c4c",
+      "notes": "",
+      "position": 7,
+      "setting": "a sunny beach with a palm tree and seashells",
+      "subject": "A friendly cartoon kitten"
+    },
+    {
+      "action": "building a sandcastle",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "turtle-sandcastle",
+      "id": "scn_5d7ad32fbdf542df",
+      "notes": "",
+      "position": 8,
+      "setting": "the sandy shore with a bucket and spade",
+      "subject": "A friendly cartoon turtle"
+    },
+    {
+      "action": "building a sandcastle",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "crab-sandcastle",
+      "id": "scn_a154a78ac71d4353",
+      "notes": "",
+      "position": 9,
+      "setting": "the sandy shore with a bucket and spade",
+      "subject": "A friendly cartoon crab"
+    },
+    {
+      "action": "building a sandcastle",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "parrot-sandcastle",
+      "id": "scn_6256fb908b694b63",
+      "notes": "",
+      "position": 10,
+      "setting": "the sandy shore with a bucket and spade",
+      "subject": "A friendly cartoon parrot"
+    },
+    {
+      "action": "building a sandcastle",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "monkey-sandcastle",
+      "id": "scn_3d9482b177e8461e",
+      "notes": "",
+      "position": 11,
+      "setting": "the sandy shore with a bucket and spade",
+      "subject": "A friendly cartoon monkey"
+    },
+    {
+      "action": "building a sandcastle",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "frog-sandcastle",
+      "id": "scn_7a3cf2c4a3c64201",
+      "notes": "",
+      "position": 12,
+      "setting": "the sandy shore with a bucket and spade",
+      "subject": "A friendly cartoon frog"
+    },
+    {
+      "action": "building a sandcastle",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "piglet-sandcastle",
+      "id": "scn_2bdfc0c7e23043d4",
+      "notes": "",
+      "position": 13,
+      "setting": "the sandy shore with a bucket and spade",
+      "subject": "A friendly cartoon piglet"
+    },
+    {
+      "action": "building a sandcastle",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "bunny-sandcastle",
+      "id": "scn_33fc45b9530e4421",
+      "notes": "",
+      "position": 14,
+      "setting": "the sandy shore with a bucket and spade",
+      "subject": "A friendly cartoon bunny"
+    },
+    {
+      "action": "building a sandcastle",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "kitten-sandcastle",
+      "id": "scn_25dc0239f33e4688",
+      "notes": "",
+      "position": 15,
+      "setting": "the sandy shore with a bucket and spade",
+      "subject": "A friendly cartoon kitten"
+    },
+    {
+      "action": "riding a surfboard",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "turtle-surfing",
+      "id": "scn_d0b69ebcb64c4bd7",
+      "notes": "",
+      "position": 16,
+      "setting": "a big rolling wave under the sun",
+      "subject": "A friendly cartoon turtle"
+    },
+    {
+      "action": "riding a surfboard",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "crab-surfing",
+      "id": "scn_e934bc58a0264ebe",
+      "notes": "",
+      "position": 17,
+      "setting": "a big rolling wave under the sun",
+      "subject": "A friendly cartoon crab"
+    },
+    {
+      "action": "riding a surfboard",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "parrot-surfing",
+      "id": "scn_07dc5d6e7f76455f",
+      "notes": "",
+      "position": 18,
+      "setting": "a big rolling wave under the sun",
+      "subject": "A friendly cartoon parrot"
+    },
+    {
+      "action": "riding a surfboard",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "monkey-surfing",
+      "id": "scn_a5d0d4a5968d44b8",
+      "notes": "",
+      "position": 19,
+      "setting": "a big rolling wave under the sun",
+      "subject": "A friendly cartoon monkey"
+    },
+    {
+      "action": "riding a surfboard",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "frog-surfing",
+      "id": "scn_509e8a795ea74683",
+      "notes": "",
+      "position": 20,
+      "setting": "a big rolling wave under the sun",
+      "subject": "A friendly cartoon frog"
+    },
+    {
+      "action": "riding a surfboard",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "piglet-surfing",
+      "id": "scn_4d831f0681f84fa6",
+      "notes": "",
+      "position": 21,
+      "setting": "a big rolling wave under the sun",
+      "subject": "A friendly cartoon piglet"
+    },
+    {
+      "action": "riding a surfboard",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "bunny-surfing",
+      "id": "scn_6f690eb75bee49e1",
+      "notes": "",
+      "position": 22,
+      "setting": "a big rolling wave under the sun",
+      "subject": "A friendly cartoon bunny"
+    },
+    {
+      "action": "riding a surfboard",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "kitten-surfing",
+      "id": "scn_0625d0a96cde4eb4",
+      "notes": "",
+      "position": 23,
+      "setting": "a big rolling wave under the sun",
+      "subject": "A friendly cartoon kitten"
+    },
+    {
+      "action": "sailing a little boat",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "turtle-sailboat",
+      "id": "scn_c066d40f31e24dcb",
+      "notes": "",
+      "position": 24,
+      "setting": "calm sea with fluffy clouds",
+      "subject": "A friendly cartoon turtle"
+    },
+    {
+      "action": "sailing a little boat",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "crab-sailboat",
+      "id": "scn_d8886bd43f5a41f6",
+      "notes": "",
+      "position": 25,
+      "setting": "calm sea with fluffy clouds",
+      "subject": "A friendly cartoon crab"
+    },
+    {
+      "action": "sailing a little boat",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "parrot-sailboat",
+      "id": "scn_cd01452c739b4d48",
+      "notes": "",
+      "position": 26,
+      "setting": "calm sea with fluffy clouds",
+      "subject": "A friendly cartoon parrot"
+    },
+    {
+      "action": "sailing a little boat",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "monkey-sailboat",
+      "id": "scn_ed8179069cce431d",
+      "notes": "",
+      "position": 27,
+      "setting": "calm sea with fluffy clouds",
+      "subject": "A friendly cartoon monkey"
+    },
+    {
+      "action": "sailing a little boat",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "frog-sailboat",
+      "id": "scn_6c96912460d64adb",
+      "notes": "",
+      "position": 28,
+      "setting": "calm sea with fluffy clouds",
+      "subject": "A friendly cartoon frog"
+    },
+    {
+      "action": "sailing a little boat",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "piglet-sailboat",
+      "id": "scn_068f046996fc458f",
+      "notes": "",
+      "position": 29,
+      "setting": "calm sea with fluffy clouds",
+      "subject": "A friendly cartoon piglet"
+    },
+    {
+      "action": "sailing a little boat",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "bunny-sailboat",
+      "id": "scn_cd569e6b53a54dc5",
+      "notes": "",
+      "position": 30,
+      "setting": "calm sea with fluffy clouds",
+      "subject": "A friendly cartoon bunny"
+    },
+    {
+      "action": "sailing a little boat",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "kitten-sailboat",
+      "id": "scn_a8f4b8dab90c4213",
+      "notes": "",
+      "position": 31,
+      "setting": "calm sea with fluffy clouds",
+      "subject": "A friendly cartoon kitten"
+    },
+    {
+      "action": "enjoying an ice cream",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "turtle-beach_umbrella",
+      "id": "scn_b11dfa5ce7e64ddf",
+      "notes": "",
+      "position": 32,
+      "setting": "under a striped beach umbrella with a beach ball",
+      "subject": "A friendly cartoon turtle"
+    },
+    {
+      "action": "enjoying an ice cream",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "crab-beach_umbrella",
+      "id": "scn_6affd8fbd04f46ac",
+      "notes": "",
+      "position": 33,
+      "setting": "under a striped beach umbrella with a beach ball",
+      "subject": "A friendly cartoon crab"
+    },
+    {
+      "action": "enjoying an ice cream",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "parrot-beach_umbrella",
+      "id": "scn_65046ba1efc949f3",
+      "notes": "",
+      "position": 34,
+      "setting": "under a striped beach umbrella with a beach ball",
+      "subject": "A friendly cartoon parrot"
+    },
+    {
+      "action": "enjoying an ice cream",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "monkey-beach_umbrella",
+      "id": "scn_48137de7986847d9",
+      "notes": "",
+      "position": 35,
+      "setting": "under a striped beach umbrella with a beach ball",
+      "subject": "A friendly cartoon monkey"
+    },
+    {
+      "action": "enjoying an ice cream",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "frog-beach_umbrella",
+      "id": "scn_dd54ffe67e2b4a8f",
+      "notes": "",
+      "position": 36,
+      "setting": "under a striped beach umbrella with a beach ball",
+      "subject": "A friendly cartoon frog"
+    },
+    {
+      "action": "enjoying an ice cream",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "piglet-beach_umbrella",
+      "id": "scn_791c2ffd5e3e4920",
+      "notes": "",
+      "position": 37,
+      "setting": "under a striped beach umbrella with a beach ball",
+      "subject": "A friendly cartoon piglet"
+    },
+    {
+      "action": "enjoying an ice cream",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "bunny-beach_umbrella",
+      "id": "scn_db29344571b2490c",
+      "notes": "",
+      "position": 38,
+      "setting": "under a striped beach umbrella with a beach ball",
+      "subject": "A friendly cartoon bunny"
+    },
+    {
+      "action": "enjoying an ice cream",
+      "characters": "",
+      "complexity": "large enclosed shapes, no gray shading",
+      "composition": "character large in the foreground, simple background, bold outlines",
+      "demo_design_key": "kitten-beach_umbrella",
+      "id": "scn_15cf4590b0f243d8",
+      "notes": "",
+      "position": 39,
+      "setting": "under a striped beach umbrella with a beach ball",
+      "subject": "A friendly cartoon kitten"
+    }
+  ],
+  "spec": {
+    "age_max": 7,
+    "age_min": 4,
+    "audience": "Children ages 4\u20137",
+    "author": "Your Name",
+    "binding": "paperback",
+    "blank_backs": true,
+    "characters": [],
+    "cover_finish": "matte",
+    "cover_type": "color",
+    "currency": "USD",
+    "difficulty": "Large enclosed shapes and bold outlines",
+    "illustration_count": 40,
+    "interior_bleed": false,
+    "intro_pages": 4,
+    "language": "English",
+    "marketplace": "Amazon.com",
+    "paper": "bw_white",
+    "reading_direction": "ltr",
+    "safe_margin_in": 0.5,
+    "subtitle": "A Coloring Book for Kids Ages 4\u20137",
+    "theme": "Original cartoon animals enjoying island activities",
+    "title": "Cute Island Adventures",
+    "trim": "8.5x11"
+  },
+  "style_guide": {
+    "avoid": [
+      "gray shading",
+      "solid black backgrounds",
+      "tiny repeating patterns",
+      "text inside illustrations",
+      "photorealism",
+      "copyrighted characters or brand logos"
+    ],
+    "background_density": "Sparse \u2013 a few large background objects",
+    "characters": [
+      {
+        "appearance": "round dome shell with a big pentagon plate, wide smile",
+        "name": "Tilly the Turtle",
+        "proportions": "head about 1/3 of shell width",
+        "reference_asset_ids": []
+      }
+    ],
+    "coloring_spaces": "Mostly large spaces; avoid regions smaller than a fingertip",
+    "consistency_note": "Image generators cannot guarantee perfect character consistency or correct anatomy. Review every image; recurring characters will vary between pages.",
+    "detail_level": "Low \u2013 suitable for ages 4\u20137",
+    "outline_weight": "Bold, uniform outlines (about 1\u20131.5 mm printed)",
+    "reference_images": []
+  },
+  "versions": {
+    "ver_09ae98e1a8d0453c": {
+      "asset_id": "ast_6993cad7337d430d",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "b760f8e153c0ee436c06c31c0c407aaac4caa954a190b7c8ba5a04955257bb4c",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_0f7e4f93462e41ec": {
+      "asset_id": "ast_60e638ad952a4f2b",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "0e31c62bfb781a436ff15a3f2de3935633c2130f8b287fc02423d032fdd6f120",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_1174bbc7837c4a04": {
+      "asset_id": "ast_5bdd8a236b084c85",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "02f2741a687a6709705c705af15057c385e1f39b0a3177b41abb6c6128ad4bc3",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_1349d8eeb5864668": {
+      "asset_id": "ast_60e0a5d8b2304873",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "cdb45ce5bb676935fabf260142abd4a21c496172b2f4331aec09c57e593db919",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_2127ce08bbac49f1": {
+      "asset_id": "ast_7374dfc961ee447d",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "8896c9ed2c89d226948a77bb0d006922f3b253b2deab404553fc2d80d0febd0c",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_2129494f82f84b5a": {
+      "asset_id": "ast_c6c90b517603403a",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "47627d29016e8432f7cbf8dc7684bc5de71d5347439409d4c90fa2932bf14e8c",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_2ae6a74b05a14f0a": {
+      "asset_id": "ast_04aa0f90243540d2",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "ecef0d58c244197b5f94d57567f773550dc565fe552e7db7a7f1e30aafd06ae3",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_3490de111009405d": {
+      "asset_id": "ast_e74da3405255409b",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "ae5f88fdb21365db475dc6ea6f3c90cb9cc8a96cf0432d283ce3d340fa699f61",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_4d1f2ba613e74144": {
+      "asset_id": "ast_e10a5ba34fe54db7",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "350fef935ab693973c527fe2b53338bb53176de9f9c745c2d92e89ff25179684",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_588531c307ff4789": {
+      "asset_id": "ast_62d10e82514844c0",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "ff706c804d21b3622321a24566de1c7252189d11c6bf465d10d813c1c447ebaa",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_63bd62d324d7416b": {
+      "asset_id": "ast_57ca384e105e45d5",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "29d38a27b813fa81404a0c32aafce571875d8b841f28abddff5060fbc2e88256",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_67b10256e43e4869": {
+      "asset_id": "ast_3099281ff6ff48e4",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "801b3c8a6b32ab5e15e6878e3a518bbb80fef8ad621adba1424c563e0d256fbb",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_67dbe520cc5e4556": {
+      "asset_id": "ast_e38d1653b0f44bc8",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "dc9772265eb915e78273d779ef81bed52a80077b718871243bc4ff6ae1d21a1c",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_6895f8c50efa42dd": {
+      "asset_id": "ast_49d6a62070f54342",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "b759d43e53892398433e238d71621c568e9437fadddff5543162d5614bab618f",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_6b6c26a69e3a412d": {
+      "asset_id": "ast_f03267bf45554899",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "9af326bcb2683d09662bb22fee22787db3767fa88565c75f6eb43de7e8961333",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_71ab81d7816b404d": {
+      "asset_id": "ast_3d35dcaa4ac14990",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "39a345086051bebfedb9dca5bfcebefa903f2b64c584d50abeacdb65a965d6d3",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_7a0aafc4a12647ac": {
+      "asset_id": "ast_48538986fe934da8",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "ecc567276e782e4dcf5e6a6d3f44f017cf565d2540d6153f2fa54301de531160",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_7c4d33c348804d36": {
+      "asset_id": "ast_fef9d4aa318743c6",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "b5c8c824609d8877149bbb5e1adb31e5ba5aea9413f9026787383e07a7ab02c8",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_7ca8f25cebec40dd": {
+      "asset_id": "ast_1463d6749d854f9b",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "5851066793b44602414606e43e35c693ae303f136004329da15f64d33db55384",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_80eb0e2140ac44ea": {
+      "asset_id": "ast_f14b9c29a3894daf",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "3fa40ae9873309446906af28b5951e94333f43be7699dd925d2343a129488334",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_84cdbc0b788440ee": {
+      "asset_id": "ast_0065734d5f3742c2",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "784b9c4e1d11908a3914418723a606695a8808bd0b69e733d056531deafa45eb",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_866e47c33e6a4c8b": {
+      "asset_id": "ast_80a0d00991624a9b",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "26aeee52f57e080010ef381d315f4df8043c19598a9876725b18e5ed76a89459",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_8c4914adcd344b0e": {
+      "asset_id": "ast_3161ca8782d744b1",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "ceac05c95cebeed6f2f019840f38c948dfd79eee20cab735e36a3633be1fb137",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_8d0b4a8f8037460b": {
+      "asset_id": "ast_8594e082d30e4641",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "868ac4433f50d5386f9bd52fa100cdcb1dfc4ec1112df6752f1653f9295f8de0",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_8f1735706f6042b8": {
+      "asset_id": "ast_3fc8efe683e442f4",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "72d57e7a22f629b4139f75efe230178d7ec2b03a6a07e016de622d1e9c2647bb",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_9d9c1eadf19b4d71": {
+      "asset_id": "ast_79e3a3a2c4d44c07",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "5b2eafef8e2561d63ec96178a9d4ec79a91933eb29573a878a47cd8a542eb4a3",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_a3eeb13b422745ba": {
+      "asset_id": "ast_f9b46d96a29545fe",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "3c95e823fbf729b7c68030270ceed3f7ca7ded974f5cd37dd0e90bd016f238c0",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_a4e3c0cc59234c3d": {
+      "asset_id": "ast_7cee6effec664867",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "260072259c05e2b233d9dba030bdf20d1607a36c10e7e606112cd9ddecf40f2f",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_a80fefbab3af4ad7": {
+      "asset_id": "ast_370a7b1bc6e14bfe",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "e07b2dd7250533e7d94e69a596b643760dcfbf5d025fe27cb6cfeff9c67aca6f",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_abe41dbe967547b5": {
+      "asset_id": "ast_f761883c8cbf4ee2",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "8b20a2028aff2498d8da1e29f28d5fa6e75a6f92ee66e51af4a30f5dd6e81e4c",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_b8e21b8e302a49c5": {
+      "asset_id": "ast_7a9fe2261d564409",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "739c0e80ebd121f4a4a9b1f831b8518c28341ad04837f31959ab65bd7d20a11f",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_bc6dacaf7a9a4cd4": {
+      "asset_id": "ast_85641c29d6aa4f2c",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "fcfda83607245c4353239e90fa751db2304bd14fcb7b5b8f596cf2e05a57a528",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_bcf1acac205c4959": {
+      "asset_id": "ast_505289c8c93f4ad2",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "baeb4e431b8ac8dc7c80413362b95c548fbfd2d105a1fb674cfd6129dc6c3a13",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_d6944e2faae94b60": {
+      "asset_id": "ast_840a9441a07d4cc1",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "c71109e94f5128530478543f9b69a70b6221067bbe0045403319e0206186f118",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_daed78711f6b456d": {
+      "asset_id": "ast_3c100ef5f7e54927",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "14afeb3a857e3297aa62ab18911a50bc6031ab22b92429c9a6872533bcca3e78",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_ebaeefca6f794d2e": {
+      "asset_id": "ast_80f0ef8a232f46ba",
+      "dpi_meta_x": null,
+      "dpi_meta_y": null,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "6f37b605cc6082d34040edae280650640e8bb558f5662f0e15a7b66d50c8aa5a",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_ee2412a448ac43f9": {
+      "asset_id": "ast_8b7e61e999f242f0",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "ef4f7b623dd7c92f6a729583bf8b15ff3b3984786d99662ab988821c68b677c1",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_f61cf806b1994284": {
+      "asset_id": "ast_53a944410bd549d4",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "8c41009727a7cee34b206fd419b05e2c7c1a8ff27663381b86268a2adce847ae",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_fd0678e4038e452f": {
+      "asset_id": "ast_38daf95181884150",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "07d6d69d1d3d90c6bbf53861f92ba7d715528ecb178b30ed9ae66415c1abeea6",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_fd9a1e2f8f214430": {
+      "asset_id": "ast_4bf0c027506948e6",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "58c2f326c43aea2a48ea806eb34b0f9ec24e83651f3b0d2f5a0b5a8cd4fc0e11",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    },
+    "ver_fddbd87ad1ac4230": {
+      "asset_id": "ast_04172ded69d74ba5",
+      "dpi_meta_x": 299.9994,
+      "dpi_meta_y": 299.9994,
+      "height_px": 3000,
+      "mime": "image/png",
+      "operation": {
+        "type": "original_import"
+      },
+      "original_height_px": 3000,
+      "original_width_px": 2250,
+      "parent_version_id": null,
+      "sha256": "29db92d79ce8948c7109add363cce00007adbbac61d3d109a70ed3fc32324f69",
+      "upscaled": false,
+      "version_no": 1,
+      "width_px": 2250
+    }
+  }
+}

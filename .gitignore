@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Node (frontend/dist is kept so the app runs without Node)
+frontend/node_modules/
+
+# Secrets and local data – never commit these
+.env
+secrets.json
+*.cbsproj
+*.db
+*.db-wal
+*.db-shm
+/data/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
