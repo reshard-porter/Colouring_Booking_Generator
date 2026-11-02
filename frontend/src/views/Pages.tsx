@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { api, img } from "../api";
 import { ProjectCtx, go } from "../App";
 import { Badge, useToast } from "../ui";
+import { ApproveAll } from "./ApproveAll";
 
 export default function Pages() {
   const { proj, refresh } = useContext(ProjectCtx);
@@ -57,6 +58,7 @@ export default function Pages() {
           </p>
         </div>
         <div className="row gap">
+          <ApproveAll pid={pid} author={proj.spec.author} onDone={refresh} />
           <button className="btn" disabled={busy} onClick={() => act(() => api.post(`/api/projects/${pid}/pages`, { kind: "intro" }), "Intro page added.")}>+ Intro page</button>
           <button className="btn btn-primary" disabled={busy} onClick={() => act(() => api.post(`/api/projects/${pid}/pages`, { kind: "illustration" }), "Illustration page added.")}>+ Illustration page</button>
         </div>

@@ -26,7 +26,7 @@ from .snapshot import build_snapshot
 from .studio import Conflict, NotFound, Studio
 
 FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
-BUILD_ID = "2026-11-01-listing-series"
+BUILD_ID = "2026-11-02-approve-all"
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
@@ -250,6 +250,24 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     async def apply_preset(pid: str, request: Request):
         b = await body(request)
         return S.apply_style_preset(pid, b.get("key", ""), b.get("master"))
+
+    @app.get("/api/projects/{pid}/approve-all")
+    def approve_all_plan(pid: str):
+        from .bulk_review import plan
+        S.project_row(pid)
+        return plan(S, pid)
+
+    @app.post("/api/projects/{pid}/approve-all")
+    async def approve_all(pid: str, request: Request):
+        from .bulk_review import approve_everything
+        b = await body(request)
+        return approve_everything(S, pid, confirm=bool(b.get("confirm")), creator=b.get("creator"),
+                                  ai_for_unknown=b.get("ai_for_unknown") or "leave")
+
+    @app.post("/api/projects/{pid}/unapprove-all")
+    def unapprove_all(pid: str):
+        from .bulk_review import unapprove_pages
+        return unapprove_pages(S, pid)
 
     @app.post("/api/projects/{pid}/listing/draft")
     def listing_draft(pid: str):

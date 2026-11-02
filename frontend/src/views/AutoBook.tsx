@@ -5,6 +5,7 @@ import { Badge, ErrorBox, Field, Loading, useAsync, useToast } from "../ui";
 import { JobList, useJobs } from "./Export";
 import { IpWarning, MasterStyle, StylePresets } from "./Heroes";
 import { BriefPanel } from "./Brief";
+import { ApproveAll } from "./ApproveAll";
 
 export default function AutoBook() {
   const { proj, refresh } = useContext(ProjectCtx);
@@ -216,7 +217,10 @@ export default function AutoBook() {
 
       {st && st.pages.some((p: any) => p.version_id) && (
         <section className="card">
-          <h2>5. Review your pages</h2>
+          <div className="row between wrap">
+            <h2>5. Review your pages</h2>
+            <ApproveAll pid={pid} author={proj.spec.author} small onDone={() => { refresh(); status.reload(); }} />
+          </div>
           <p className="small muted">Approve the ones you like; regenerate the rest (approved pages are never replaced). Then check the <a href={`#/p/${pid}/cover`}>cover</a>, run <a href={`#/p/${pid}/preflight`}>preflight</a> and <a href={`#/p/${pid}/export`}>export</a>.</p>
           <div className="book-grid">
             {st.pages.map((p: any) => (

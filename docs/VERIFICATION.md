@@ -4,7 +4,7 @@ Everything below was actually run. Full verbose output from the last run: [test-
 
 **Environment:** Linux, Python 3.13.18 in a fresh venv installed from `backend/requirements.lock` (`pip freeze` matched the lockfile exactly), Node 22.23.4, Chromium (Playwright 1.63), FFmpeg 6.1.1.
 
-**Result:** `python -m pytest -v tests` → **126 passed** (about 1.5 minutes).
+**Result:** `python -m pytest -v tests` → **129 passed** (about 1.5 minutes).
 
 ## Golden acceptance fixtures
 
@@ -184,6 +184,19 @@ A user's first real OpenAI image was rejected as "SVG". PNG files can carry XML 
   - Copied: size, ages, page count, master style, characters, intro pages with descriptions and full-page placement (no art), cover colors, and series name and number on both books.
   - Not copied: story, subtitle, page descriptions, art, back-cover text and listing description.
 - **Browser:** Draft from my book fills the description and 7 keyword ideas for the Sprocket Squad brief, and Start the next book opens "Sprocket Squad: Book 2", with no browser errors (screenshot 25).
+
+## Approve everything (`test_approve_all.py` + browser run, v0.5.1)
+
+- **Preview:** shows exactly what will change: pages to approve, rights to declare, artwork to approve, unknown AI use, AI-generated files, demo art, flagged art and pages without art.
+- **Confirmation:** without the confirm tick the request is refused.
+- **What changes:**
+  - Rights become "owner declared"; the author becomes creator when none is recorded.
+  - Unreviewed artwork becomes approved, with a dated note.
+  - Unknown AI use is set only if you choose.
+  - AI-generated files stay AI-generated, and preflight still asks for AI disclosure.
+- **Left alone:** artwork marked "needs changes" and demo art are untouched; pages without art stay unapproved, and preflight still lists them.
+- **Running again** does nothing. **Take back page approvals** removes page approvals and keeps the rights declarations.
+- **Browser:** the dialog on the Sprocket Squad book approved 6 test pages and left out 34 without art, with no browser errors (screenshot 26).
 
 ## Live provider tests
 

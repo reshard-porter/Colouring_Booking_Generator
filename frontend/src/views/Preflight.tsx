@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { api } from "../api";
 import { ProjectCtx, go } from "../App";
 import { Badge, ErrorBox, Loading, sevKind, useAsync, useToast } from "../ui";
+import { ApproveAll } from "./ApproveAll";
 
 const GROUPS: [string, string, string][] = [
   ["error", "Technical errors", "Must be fixed before a print-release package."],
@@ -39,7 +40,10 @@ export default function Preflight() {
           <h1>Preflight</h1>
           <p className="lede">Checks your book against the dated KDP print profile. Passing preflight means “ready for your KDP review”, not “approved by Amazon”.</p>
         </div>
-        <button className="btn btn-primary" onClick={run} disabled={running}>{running ? "Checking…" : r ? "Re-run preflight" : "Run preflight"}</button>
+        <div className="row gap">
+          <ApproveAll pid={pid} author={proj.spec.author} onDone={() => { refresh(); run(); }} />
+          <button className="btn btn-primary" onClick={run} disabled={running}>{running ? "Checking…" : r ? "Re-run preflight" : "Run preflight"}</button>
+        </div>
       </div>
       <ErrorBox error={err || rep.error} />
       {running && <Loading what="Checking pages, artwork, cover and provenance" />}

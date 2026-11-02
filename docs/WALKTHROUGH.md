@@ -137,6 +137,14 @@ Click **Place on page…** to put a drawing on an illustration page.
 
 Back in **Pages & layout**, drag cards to reorder them. Blank backs follow automatically.
 
+**Approve everything at once:** **✓ Approve everything…** is on Pages & layout, Preflight and the review step of ✨ Create with AI. It shows what it will do, then in one step:
+- approves every illustration page that has art
+- declares you own or may sell the artwork whose rights aren't declared yet, with your author name as creator
+- marks unreviewed artwork as approved
+- optionally records how artwork with unknown AI use was made
+
+You have to tick that you looked at every page and may sell the art. AI-generated images stay AI-generated, so you still disclose them to KDP. Demo sample drawings, pages without art and artwork you marked "needs changes" are left out. **Take back page approvals** undoes the page approvals.
+
 ## 5. Make the cover (Cover)
 
 1. Pick an illustration under **Make a colored version** to get a colored copy for the front.

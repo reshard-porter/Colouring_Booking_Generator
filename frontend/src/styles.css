@@ -279,3 +279,5 @@ details > summary { cursor: pointer; margin: 0.5rem 0; }
 .choice-list .btn { justify-self: start; margin-top: 8px; }
 blockquote.quote { border-left: 3px solid var(--line, #ddd); margin: 8px 0; padding: 4px 10px; }
 .card-inner { border-top: 1px solid var(--line, #e5e5e5); margin-top: 16px; padding-top: 8px; }
+.check-confirm { align-items: flex-start; margin: 12px 0; padding: 10px; border: 1px solid var(--line, #ddd); border-radius: 8px; }
+.check-confirm input { margin-top: 3px; }
