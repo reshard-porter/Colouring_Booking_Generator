@@ -88,6 +88,7 @@ export default function Pages() {
               </div>
               <div className="pcard-thumb" onClick={() => p && go(`/p/${pid}/editor/${p.id}`)} role={p ? "button" : undefined} tabIndex={p ? 0 : -1}
                 onKeyDown={(k) => p && k.key === "Enter" && go(`/p/${pid}/editor/${p.id}`)} aria-label={p ? `Edit ${p.label}` : `Blank page ${e.number}`}>
+                {e.kind === "story" && <span className="intro-text small" onClick={(ev) => { ev.stopPropagation(); go(`/p/${pid}/descriptions`); }}>story text for the picture on the right ✎</span>}
                 {e.kind === "blank" && <span className="muted small">{e.blank_reason === "back" ? "blank back" : e.blank_reason === "parity" ? "parity blank (auto)" : "end blank (auto)"}</span>}
                 {imgEl && <img src={img(imgEl.asset_version_id, 200)} alt="" loading="lazy" />}
                 {p && !imgEl && e.kind === "illustration" && <span className="warn-text small">no artwork</span>}

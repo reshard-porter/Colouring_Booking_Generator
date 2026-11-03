@@ -4,7 +4,7 @@ Everything below was actually run. Full verbose output from the last run: [test-
 
 **Environment:** Linux, Python 3.13.18 in a fresh venv installed from `backend/requirements.lock` (`pip freeze` matched the lockfile exactly), Node 22.23.4, Chromium (Playwright 1.63), FFmpeg 6.1.1.
 
-**Result:** `python -m pytest -v tests` → **129 passed** (about 1.5 minutes).
+**Result:** `python -m pytest -v tests` → **140 passed** (about 1.5 minutes).
 
 ## Golden acceptance fixtures
 
@@ -197,6 +197,30 @@ A user's first real OpenAI image was rejected as "SVG". PNG files can carry XML 
 - **Left alone:** artwork marked "needs changes" and demo art are untouched; pages without art stay unapproved, and preflight still lists them.
 - **Running again** does nothing. **Take back page approvals** removes page approvals and keeps the rights declarations.
 - **Browser:** the dialog on the Sprocket Squad book approved 6 test pages and left out 34 without art, with no browser errors (screenshot 26).
+
+## Story pages (`test_story_pages.py` + browser run, v0.6.0)
+
+- **Layout:** each picture is a right-hand page with its story on the facing left-hand page; a parity blank is added after an even number of intro pages, an end blank keeps the count even, and books without story pages are unchanged.
+- **Storage:**
+  - Stories survive re-planning and move with their picture when pages are reordered.
+  - Deleting a picture deletes its story; limits are 9000 characters for text and 80 for titles.
+  - Backups keep stories. Book 2 keeps the setting but starts with empty stories.
+- **Paste-all:** `Page N: Title` / `### Story N` headings and `---` lines split stories; a long heading is treated as the first sentence.
+- **Fit and printing:** text is sized from 16 to 10 pt. The exported PDF prints a title and text on the story page and nothing extra on the picture page, and passes verification.
+- **Preflight:**
+  - Errors: a story that doesn't fit at 10 pt, or a broken story/picture pairing.
+  - Warnings: empty story pages. Heuristics: stories shorter than the target.
+  - The blank-back rule doesn't apply when story pages are on.
+- **AI writing** (with a stand-in text service):
+  - Many stories need a per-story estimate and a spending limit; the limit is enforced, and there is nothing to do when no story is missing.
+  - Prompts include the picture description, characters, ages, word target and the previous page's ending.
+  - Each request is recorded in the budget, the listing is set to AI-generated text, and AI text edited afterwards stays marked AI-written.
+  - Text that names a protected character is not used.
+- **OpenAI text adapter** (contract tests with simulated responses, not live):
+  - Sends POST /v1/responses with the model, instructions and input, and reads the text from the output message items.
+  - Retries without `reasoning` if a model rejects it; a 401 gives a clear message; a timeout is treated as an unknown outcome, not retried; an empty output is reported.
+- **Briefs:** `Story title:` and `Story:` blocks (several paragraphs, in heading and one-line layouts) and JSON `story` fields are read; the story pages setting is turned on automatically, and round-trips through Markdown export.
+- **Browser:** story pages turned on for the Sprocket Squad book make 86 pages, with 40 story cards on Pages & layout; a pasted 416-word story fits at 14 pt and its preview renders, with no browser errors (screenshot 27).
 
 ## Live provider tests
 

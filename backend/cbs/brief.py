@@ -34,6 +34,8 @@ SETTING_KEYS = {
     "intro_pages": ["intro pages", "intro page count", "number of intro pages", "introductory pages"], "format": ["format", "book format"],
     "illustrations": ["illustrations", "illustration count", "number of illustrations", "pages"],
     "cover_finish": ["cover finish", "finish"], "list_price": ["list price", "price"],
+    "facing_text": ["story pages", "facing text", "story text pages", "text pages", "left page text", "facing story"],
+    "story_words": ["story words", "story length", "words per story", "words per page"],
 }
 CHAR_KEYS = {"role": ["role"], "powers": ["powers", "power", "abilities"], "costume": ["costume", "outfit", "clothes"],
              "emblem": ["emblem", "symbol", "logo"], "appearance": ["appearance", "looks", "look", "description"],
@@ -188,6 +190,8 @@ def _heading(ln: str, cur: str | None):
         if k:
             return ("section", k, m.group(1).strip())
         return ("section", "act", m.group(1).strip()) if cur in ("pages", "intro") else None
+    if cur in ("pages", "intro") and STORY_RE.match(ln):
+        return None  # "Story:" inside a page belongs to that page
     m = re.match(r"^\s*(?:\*\*|__)([^*_]{2,90}?)(?::)?(?:\*\*|__)\s*:?\s*$", ln) or \
         re.match(r"^\s*([A-Za-z][^:\n*#\[\]]{1,90}?)\s*:\s*$", ln)  # **Front cover**  /  Book Metadata:
     if m and not BULLET_RE.match(ln):
@@ -195,6 +199,28 @@ def _heading(ln: str, cur: str | None):
         if k:
             return ("section", k, m.group(1).strip())
     return None
+
+
+STORY_RE = re.compile(r"^\s*(?:[-*+]\s+)?(?:\*\*|__)?(story title|story|story text|left page|left page text|facing text|facing page|text page)"
+                      r"(?:\*\*|__)?\s*:\s*(?:\*\*|__)?\s*(.*)$", re.I)
+
+
+def _split_story(lines: list[str]) -> tuple[list[str], str, str]:
+    """Lines of one page item -> (picture description lines, story title, story text). Everything after a 'Story:' line
+    is the story (it may have several paragraphs)."""
+    desc, title, story, in_story = [], "", [], False
+    for ln in lines:
+        m = STORY_RE.match(ln)
+        if m and m.group(1).lower() == "story title":
+            title = m.group(2).strip()
+            continue
+        if m and not in_story:
+            in_story = True
+            if m.group(2).strip():
+                story.append(m.group(2).strip())
+            continue
+        (story if in_story else desc).append(ln.strip() if in_story else ln)
+    return desc, title, _text(story)
 
 
 SMALL_WORDS = {"a", "an", "and", "at", "by", "for", "in", "of", "on", "or", "the", "to", "with"}
@@ -222,13 +248,21 @@ def _line_items(lines: list[str], default_kind: str) -> list[dict]:
     cur = None
     for ln in lines:
         if not ln.strip():
-            cur = None
+            if cur is not None and cur.get("story"):
+                cur["lines"].append("")  # story paragraphs: a blank line doesn't end the page
+            else:
+                cur = None
             continue
         m = ITEM_RE.match(ln)
         if m:
             kind = "intro" if m.group(1).lower().startswith("intro") else "page"
             cur = {"kind": kind, "number": int(m.group(2)), "label": (m.group(3) or "").strip(), "lines": [m.group(4)], "explicit": True}
             items.append(cur)
+            continue
+        if cur is not None and (cur.get("story") or STORY_RE.match(ln)):
+            if STORY_RE.match(ln):
+                cur["story"] = True
+            cur["lines"].append(ln)
             continue
         n, b = NUM_RE.match(ln), BULLET_RE.match(ln)
         if cur is not None and not (n or b):
@@ -360,9 +394,15 @@ def _parse_markdown(text: str, warnings: list[str]) -> dict:
                     data.setdefault("intro", []).append(_intro_from(it["label"] or (f"Intro {it['number']}" if it["number"] else "Intro page"),
                                                                     it["lines"], it["number"]))
                 else:
-                    desc = _text(it["lines"])
-                    if desc or it["label"] or it.get("heading"):
-                        data.setdefault("pages", []).append({"label": it["label"], "description": desc, "number": it["number"], "act": act})
+                    dlines, stitle, story = _split_story(it["lines"])
+                    desc = _text(dlines)
+                    if desc or it["label"] or it.get("heading") or story:
+                        pg = {"label": it["label"], "description": desc, "number": it["number"], "act": act}
+                        if story:
+                            pg["story"] = story
+                        if stitle:
+                            pg["story_title"] = stitle
+                        data.setdefault("pages", []).append(pg)
         elif key == "listing":
             pre, items = _split_h3(body)
             vals, rest = _kv_lines(pre, LISTING_KEYS)
@@ -461,7 +501,13 @@ def _parse_json(obj, warnings: list[str]) -> dict:
                     item["description"], item["text"] = desc, _as_text(it.get("text")) or None
                     out.append(item)
                 else:
-                    out.append({"label": label, "description": desc, "number": num, "act": _as_text(it.get("act")) or None})
+                    pg = {"label": label, "description": desc, "number": num, "act": _as_text(it.get("act")) or None}
+                    story = _as_text(it.get("story") or it.get("story_text") or it.get("facing_text") or it.get("text"))
+                    if story:
+                        pg["story"] = story
+                    if it.get("story_title"):
+                        pg["story_title"] = _as_text(it["story_title"])
+                    out.append(pg)
             data[key] = out
         elif key == "listing":
             lst = {}
@@ -595,6 +641,14 @@ def parse_brief(text: str) -> dict:
     for it in intro:
         if it.get("placement") is None:
             it["placement"] = "full_page" if data.get("intro_exact") and not it.get("text") else "free_space"
+    yes_story = _yes(s["facing_text"]) if s.get("facing_text") else None
+    data["facing_text"] = bool(yes_story) or (yes_story is None and any(p.get("story") for p in pages))
+    if data["facing_text"] and yes_story is None and any(p.get("story") for p in pages):
+        warnings.append("Story text was found, so story pages are turned on: each story is printed on the left page facing its picture.")
+    for p in pages:
+        if len(p.get("story", "")) > 9000:
+            warnings.append(f"The story for page {p['number']} is over 9000 characters and will be shortened.")
+            p["story"] = p["story"][:9000]
     # validation / warnings
     for p in pages:
         if len(p["description"]) > 4000:
@@ -640,6 +694,8 @@ def parse_brief(text: str) -> dict:
         "has_back_cover_text": bool(data.get("back_cover_text")), "has_listing": bool(data.get("listing")),
         "book_description_words": len((data.get("book_description") or "").split()),
         "acts": data.get("acts", []), "intro_exact": bool(data.get("intro_exact")),
+        "stories": sum(1 for p in pages if p.get("story")),
+        "facing_text": bool(data.get("facing_text")),
         "intro_labels": [i["label"] for i in intro], "character_names": [c.get("name", "") for c in data.get("characters", [])],
         "first_pages": [f"{p['number']}. " + (p["label"] + " – " if p["label"] else "") + p["description"][:110] for p in pages[:3]],
         "last_page": (f"{pages[-1]['number']}. " + (pages[-1]["label"] + " – " if pages[-1]["label"] else "") + pages[-1]["description"][:110])
@@ -707,6 +763,16 @@ def spec_from_settings(data: dict) -> tuple[dict, list[str]]:
         spec["cover_finish"] = "glossy" if "gloss" in s["cover_finish"].lower() else "matte"
     if data.get("book_description"):
         spec["theme"] = data["book_description"]
+    if data.get("facing_text"):
+        spec["facing_text"] = True
+    elif s.get("facing_text") and _yes(s["facing_text"]) is False:
+        spec["facing_text"] = False
+    if s.get("story_words"):
+        m = re.search(r"\d+", str(s["story_words"]))
+        if m and 50 <= int(m.group(0)) <= 900:
+            spec["story_words"] = int(m.group(0))
+        elif m:
+            warn.append("Story words must be between 50 and 900; kept the current length.")
     n = len(data.get("pages", []))
     ill = s.get("illustrations")
     count = max(n, int(ill) if ill and str(ill).strip().isdigit() else 0)
@@ -883,6 +949,14 @@ def apply_brief(studio, pid: str, data: dict) -> dict:
             studio.update_page_meta(row["page_id"], {"label": f"{row['illustration_number']}. {label}"[:120]})
     if data.get("pages"):
         changes.append(f"{min(len(rows), len(data['pages']))} page descriptions set")
+    n_story = 0
+    for row, pg in zip(rows, data.get("pages", [])):
+        if pg.get("story") or pg.get("story_title"):
+            from .stories import set_story
+            set_story(studio, row["page_id"], pg.get("story", ""), pg.get("story_title"))
+            n_story += 1
+    if n_story:
+        changes.append(f"{n_story} story page(s) set (printed on the left page facing each picture)")
     # intro pages
     if data.get("intro_exact"):
         changes += _apply_intro_exact(studio, pid, data["intro"], warnings)
@@ -961,7 +1035,8 @@ def export_brief(studio, pid: str) -> str:
            f"- Ages: {ages}", f"- Trim: {sp['trim']}", f"- Paper: {'cream' if sp['paper'] == 'bw_cream' else 'white'}",
            f"- Bleed: {'yes' if sp.get('interior_bleed') else 'no'}", f"- Blank backs: {'yes' if sp.get('blank_backs', True) else 'no'}",
            f"- Style preset: {sg.get('preset', '')}", f"- Cleanup: {sg.get('cleanup_mode', 'bold')}",
-           f"- Illustrations: {len(studio.page_descriptions(pid))}", f"- List price: {ls.get('list_price', '')}", "",
+           f"- Illustrations: {len(studio.page_descriptions(pid))}", f"- List price: {ls.get('list_price', '')}",
+           f"- Story pages: {'yes' if sp.get('facing_text') else 'no'}", f"- Story words: {sp.get('story_words', 400)}", "",
            "## Book description", "", sp.get("theme") or "", "", "## Master style", "", sg.get("master_style") or "", ""]
     if sg.get("avoid"):
         out += ["## Avoid", ""] + [f"- {a}" for a in sg["avoid"] if a] + [""]
@@ -980,10 +1055,17 @@ def export_brief(studio, pid: str) -> str:
         out += [f"### Intro {i} ({r['label']})", f"- Placement: {PL.get(r['placement'], 'free space')}"]
         out += ["", r["description"] or "", ""]
     out += ["## Pages", ""]
+    from .stories import story_map
+    smap = story_map(studio, pid)
     for r in studio.page_descriptions(pid):
         label = re.sub(r"^\d+\.\s*", "", r["label"] or "")
         out += [f"### Page {r['illustration_number']}" + (f": {label}" if label and not label.lower().startswith("illustration") else ""), "",
                 r["description"] or "", ""]
+        st = smap.get(r["page_id"])
+        if st and (st["text"] or st["title"]):
+            if st["title"]:
+                out += [f"Story title: {st['title']}"]
+            out += ["Story:", st["text"], ""]
     out += ["## Listing", "", f"- Keywords: {', '.join(k for k in (ls.get('keywords') or []) if k)}",
             f"- ISBN: {ls.get('isbn_choice', 'undecided')}", "", "### Description", "", ls.get("description") or "", ""]
     return "\n".join(out).rstrip() + "\n"
@@ -1014,7 +1096,8 @@ def brief_to_json(data: dict) -> dict:
                               for i in data["intro"]]
     if data.get("pages"):
         out["pages"] = [{k: v for k, v in (("page", p.get("number")), ("label", p.get("label")), ("act", p.get("act")),
-                                           ("description", p.get("description"))) if v} for p in data["pages"]]
+                                           ("description", p.get("description")), ("story_title", p.get("story_title")),
+                                           ("story", p.get("story"))) if v} for p in data["pages"]]
     if data.get("listing"):
         out["listing"] = data["listing"]
     return out

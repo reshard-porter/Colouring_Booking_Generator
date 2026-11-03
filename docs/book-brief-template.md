@@ -19,6 +19,8 @@
 - Paper: white
 - Bleed: no
 - Blank backs: yes
+- Story pages: no
+- Story words: 400
 - Style preset: Adult pen-and-ink
 - Cleanup: fine
 - List price: 9.99
@@ -71,6 +73,19 @@ A ribbon of moonflowers and ferns with Pip the moth.
 A decorative frame of vines, mushrooms and tiny stars around the page.
 
 ## Pages
+<!-- Optional story pages: set "Story pages: yes" in Settings to print a story on the left page facing each picture.
+     Under a page, write "Story title: …" (optional) and then a line "Story:" followed by the text – it may have several
+     paragraphs. Pages without a story can be written later on ✎ Page descriptions, or by AI. Example:
+
+### Page 1: Juniper's lantern
+Juniper the hedgehog carrying a paper lantern along a mossy path…
+
+Story title: The Lantern Walk
+Story:
+Juniper lifted her paper lantern and stepped onto the mossy path…
+
+The ferns whispered as she passed…
+-->
 
 ### Page 1: Juniper's lantern
 Juniper the hedgehog carrying a paper lantern along a mossy path lined with ferns and toadstools.

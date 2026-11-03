@@ -23,6 +23,13 @@ def build_snapshot(studio, pid: str) -> dict:
             entry["label"] = p["label"]
             entry["approved"] = p["approved"]
             entry["scene_id"] = p["scene_id"]
+    if any(e["kind"] == "story" for e in asm["pages"]):
+        from .stories import story_map
+        stories = story_map(studio, pid)
+        for entry in asm["pages"]:
+            if entry["kind"] == "story":
+                st = stories.get(entry["story_for"]) or {}
+                entry["story"] = {"title": st.get("title", ""), "text": st.get("text", ""), "ai": bool((st.get("meta") or {}).get("ai"))}
     cover = studio.cover(pid)
     version_ids = set()
     for e in asm["pages"]:

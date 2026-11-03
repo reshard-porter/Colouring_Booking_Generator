@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import io
 import math
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
@@ -104,6 +105,62 @@ def draw_text_box(c: Canvas, x_pt, y_top_pt, w_pt, h_pt, text, size, bold, align
         y -= leading
 
 
+STORY_MAX_PT, STORY_MIN_PT, STORY_LEADING = 16.0, 10.0, 1.4
+
+
+def layout_story(text: str, title: str, w_pt: float, h_pt: float) -> dict | None:
+    """Largest body size (16 → 10 pt) at which the title and story fit the safe area; None if it doesn't fit at 10 pt."""
+    title = (title or "").strip()
+    paras = [p.strip() for p in re.split(r"\n\s*\n", (text or "").strip()) if p.strip()]
+    size = STORY_MAX_PT
+    while size >= STORY_MIN_PT - 1e-6:
+        tpt = round(size * 1.5, 1)
+        tlines = wrap_text(title, True, tpt, w_pt) if title else []
+        used = len(tlines) * tpt * 1.2 + (size * 1.2 if tlines else 0)
+        blines: list[list[str]] = []
+        for para in paras:
+            blines.append(wrap_text(para.replace("\n", " "), False, size, w_pt))
+        used += sum(len(b) for b in blines) * size * STORY_LEADING + max(len(blines) - 1, 0) * size * 0.7
+        if used <= h_pt:
+            return {"title_pt": tpt, "body_pt": size, "title_lines": tlines, "paragraphs": blines, "height_pt": used}
+        size = round(size - 0.5, 1)
+    return None
+
+
+def draw_story_page(c: Canvas, geo, story: dict | None):
+    """Story text on the left page facing its illustration: optional bold title, then paragraphs, top-aligned in the safe area."""
+    if not story or not (story.get("text") or "").strip():
+        return []
+    x, y, w, h = to_pdf_rect(geo, geo.safe)
+    lay = layout_story(story["text"], story.get("title", ""), w, h)
+    overflow = lay is None
+    if overflow:  # draw at the minimum size and stop at the bottom margin; preflight reports it as an error
+        size = STORY_MIN_PT
+        lay = {"title_pt": size * 1.5, "body_pt": size,
+               "title_lines": wrap_text(story.get("title", ""), True, size * 1.5, w) if story.get("title") else [],
+               "paragraphs": [wrap_text(p.replace("\n", " "), False, size, w) for p in re.split(r"\n\s*\n", story["text"].strip()) if p.strip()]}
+    register_fonts()
+    c.setFillColor(black)
+    top = y + h
+    cur = top
+    if lay["title_lines"]:
+        c.setFont(FONT_BOLD, lay["title_pt"])
+        for ln in lay["title_lines"]:
+            cur -= lay["title_pt"] * 1.2
+            c.drawCentredString(x + w / 2, cur + lay["title_pt"] * 0.25, ln)
+        cur -= lay["body_pt"] * 1.2
+    c.setFont(FONT_REGULAR, lay["body_pt"])
+    lead = lay["body_pt"] * STORY_LEADING
+    for k, para in enumerate(lay["paragraphs"]):
+        for ln in para:
+            if cur - lead < y - 0.5:
+                break
+            cur -= lead
+            c.drawString(x, cur + lay["body_pt"] * 0.3, ln)
+        cur -= lay["body_pt"] * 0.7
+    return [{"story": True, "body_pt": lay["body_pt"], "overflow": overflow}]
+
+
 def fit_font_size(text, bold, max_pt, min_pt, w_pt, h_pt, max_lines=3) -> float:
     size = max_pt
     while size > min_pt:
@@ -132,6 +189,8 @@ def draw_interior_page(c: Canvas, cfg: PrintConfig, page_count: int, entry: dict
     _set_boxes(c, geo)
     if entry["kind"] == "blank":
         return []
+    if entry["kind"] == "story":
+        return draw_story_page(c, geo, entry.get("story"))
     placements = []
     for el in sorted(entry.get("elements", []), key=lambda e: e.get("z", 0)):
         if el["kind"] == "image":
@@ -186,7 +245,7 @@ def render_interior(snapshot: dict, read_bytes, out_path: Path, progress=None, c
         placements = draw_interior_page(c, cfg, asm["page_count"], entry, snapshot, images)
         c.showPage()
         manifest.append({"pdf_page": entry["number"], "kind": entry["kind"], "blank_reason": entry.get("blank_reason"),
-                         "page_id": entry.get("page_id"), "placements": placements})
+                         "page_id": entry.get("page_id") or entry.get("story_for"), "placements": placements})
         if progress:
             progress((i + 1) / total, f"Interior page {i + 1} of {total}")
     c.save()
@@ -457,7 +516,7 @@ def render_contact_sheet(snapshot: dict, interior_pdf: Path, cover_pdf: Path | N
             c.setLineWidth(0.5)
             c.rect(x, y, im.width * s, im.height * s)
             kind = asm[k]["kind"] if k < len(asm) else "?"
-            label = f"p.{k + 1} {'(blank back)' if asm[k].get('blank_reason') == 'back' else kind}"
+            label = f"p.{k + 1} {'(blank back)' if asm[k].get('blank_reason') == 'back' else 'story text' if kind == 'story' else kind}"
             c.setFillColorRGB(0, 0, 0)
             c.drawCentredString(36 + col * cw + cw / 2, y - 10, label)
         c.showPage()

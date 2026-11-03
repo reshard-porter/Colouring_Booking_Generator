@@ -16,7 +16,7 @@ from typing import Callable
 from .db import jdump, jload, new_id, now_iso
 
 HANDLERS: dict[str, Callable] = {}
-BILLABLE = {"generate_images"}
+BILLABLE = {"generate_images", "write_stories"}
 
 
 class JobCancelled(Exception):

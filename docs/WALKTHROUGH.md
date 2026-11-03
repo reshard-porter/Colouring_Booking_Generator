@@ -53,6 +53,23 @@ If drawing every page is too much work, open **✨ Create with AI** in the sideb
 
 Then continue with the cover, preflight and export as described below. AI results vary: check every page for odd hands, extra limbs or messy lines, and remember to disclose AI-generated images to KDP.
 
+## Story pages: text facing every picture
+
+Normally every picture is on a right-hand page with a blank page behind it. In **Book setup**, tick **Story text on the left page, facing each picture** to print a story on the left page facing each picture instead. The story for picture 2 is printed on the back of picture 1, and so on, so the book grows by only about 2 pages. With 4 intro pages and 40 pictures, that's 86 pages; recalculate the cover after switching.
+
+On **✎ Page descriptions → Story pages**, every picture has a title box (optional) and a text box with a word counter (the target is 400 words; change it in Book setup). There are four ways to fill them:
+- **Type** each story.
+- **Paste all stories…** – start each one with a line like `Page 1: The Big Pull`; paragraphs are kept.
+- **In your brief** – under a page, add `Story title: …` and a line `Story:` followed by the text.
+- **✨ Write missing with AI…** – OpenAI writes them one after another, so the story flows from page to page. Each story uses the picture's description, your characters, and the end of the previous story.
+
+The AI option costs money, so it works like image generation:
+- It shows the cost first and stops at your spending limit. Enter your per-story cost estimate in **Settings**.
+- AI-written text stays marked as AI-generated even after you edit it, and the Listing page is set to "AI-generated text" for KDP's question.
+- Read every story before publishing.
+
+Each story is sized to fit the page, from 16 pt down to 10 pt. **Preview page** shows exactly how it prints. Preflight warns about empty story pages (they'd print blank), flags stories shorter than your target, and stops stories that don't fit even at 10 pt. With story pages, markers can bleed through onto the back of each picture, but that's text, not another picture.
+
 ## 1. Create your book
 
 Click **+ New book**. Enter a working title, your author or pen name, the age range, and how many illustrations you want. The defaults are the safe choice for a first book:

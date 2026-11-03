@@ -81,8 +81,11 @@ def draft_listing(studio, pid: str) -> dict:
             bits = [b for b in (_species(c), (c.get("role") or "").lower()) if b]
             lines.append(f"• {c['name']}" + (f" – {', '.join(bits)}" if bits else ""))
         paras.append("Meet the characters:\n" + "\n".join(lines))
-    inside = [f"• {n} illustrations, each on its own page" + (" with a blank back, so markers are less likely to bleed onto the next picture"
-                                                             if sp.get("blank_backs", True) else "")]
+    if sp.get("facing_text"):
+        inside = [f"• {n} illustrations, each on a right-hand page, with a story page facing every picture that describes what's happening"]
+    else:
+        inside = [f"• {n} illustrations, each on its own page" + (" with a blank back, so markers are less likely to bleed onto the next picture"
+                                                                 if sp.get("blank_backs", True) else "")]
     if kids and sg.get("cleanup_mode", "bold") == "bold":
         inside.append("• Bold outlines and big, closed shapes that are easy to color with crayons, markers or colored pencils")
     if intro:
@@ -97,7 +100,8 @@ def draft_listing(studio, pid: str) -> dict:
         back = f"Join {names}{' of ' + team if team else ''}" + (f" in {story}!" if story else " on a big adventure!")
     else:
         back = f"{n} original pictures to color!"
-    back += f" {n} pictures to color" + (", each printed on its own page" if sp.get("blank_backs", True) else "") + "."
+    back += (f" {n} pictures to color, each with a story to read on the facing page." if sp.get("facing_text") else
+             f" {n} pictures to color" + (", each printed on its own page" if sp.get("blank_backs", True) else "") + ".")
     if kids:
         back += f" Big, bold shapes made for crayons. For ages {lo}–{hi}."
     back_copy = back.strip()

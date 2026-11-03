@@ -14,7 +14,7 @@ from fastapi.staticfiles import StaticFiles
 from PIL import Image
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
-from . import exporter, generation, preflight, pricing, video
+from . import exporter, generation, preflight, pricing, stories, video
 from .config import APP_VERSION, Settings
 from .db import jdump, jload, now_iso
 from .geometry import Rect, fit_element, print_profiles, resolve_config
@@ -26,7 +26,7 @@ from .snapshot import build_snapshot
 from .studio import Conflict, NotFound, Studio
 
 FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
-BUILD_ID = "2026-11-02-approve-all"
+BUILD_ID = "2026-11-03-story-pages"
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
@@ -250,6 +250,49 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     async def apply_preset(pid: str, request: Request):
         b = await body(request)
         return S.apply_style_preset(pid, b.get("key", ""), b.get("master"))
+
+    # ------------------------------------------------------------------ story pages (text facing each picture)
+    @app.get("/api/projects/{pid}/stories")
+    def get_stories(pid: str):
+        S.project_row(pid)
+        sp = S.spec(pid)
+        return {"facing_text": bool(sp.get("facing_text")), "story_words": int(sp.get("story_words") or 400),
+                "rows": stories.list_stories(S, pid)}
+
+    @app.put("/api/pages/{page_id}/story")
+    async def put_story(page_id: str, request: Request):
+        b = await body(request)
+        return stories.set_story(S, page_id, b.get("text", ""), b.get("title"))
+
+    @app.post("/api/projects/{pid}/stories/bulk")
+    async def bulk_stories(pid: str, request: Request):
+        b = await body(request)
+        return stories.bulk_set(S, pid, b.get("text", ""))
+
+    @app.post("/api/projects/{pid}/stories/estimate")
+    async def stories_estimate(pid: str, request: Request):
+        b = await body(request)
+        rows = stories.list_stories(S, pid)
+        ids = b.get("page_ids") or [r["page_id"] for r in rows if b.get("overwrite") or not r["text"].strip()]
+        return stories.estimate_stories(S, pid, ids)
+
+    @app.post("/api/projects/{pid}/stories/write")
+    async def stories_write(pid: str, request: Request):
+        b = await body(request)
+        try:
+            return stories.start_writing(S, R, pid, b.get("page_ids"), bool(b.get("confirm")), bool(b.get("overwrite")))
+        except DuplicateJob as e:
+            raise HTTPException(409, f"Stories are already being written (job {e.job_id}).")
+
+    @app.get("/api/projects/{pid}/stories/{page_id}/preview.png")
+    def story_preview(pid: str, page_id: str, dpi: int = 60):
+        from .snapshot import build_snapshot
+        snap = build_snapshot(S, pid)
+        num = next((e["number"] for e in snap["assembly"]["pages"] if e.get("story_for") == page_id), None)
+        if num is None:
+            raise HTTPException(404, "This book has no story page for that picture (turn on story pages in Book setup).")
+        return Response(render_interior_page_png(snap, S.storage.read, num, min(max(dpi, 20), 150)), media_type="image/png",
+                        headers={"Cache-Control": "no-store"})
 
     @app.get("/api/projects/{pid}/approve-all")
     def approve_all_plan(pid: str):
@@ -574,16 +617,17 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         sec = generation.SecretStore(settings.secrets_path)
         return {"status": prov.status(), "capabilities": prov.capabilities(), "settings": S.get_setting("ai_provider", {}) or {},
                 "defaults": generation.default_settings(prov),
+                "text_models": __import__("cbs.providers.openai_text", fromlist=["x"]).TEXT_MODEL_CHOICES,
                 "key_source": sec.source("OPENAI_API_KEY")}
 
     @app.put("/api/ai/settings")
     async def ai_settings(request: Request):
         b = await body(request)
         cur = S.get_setting("ai_provider", {}) or {}
-        for k in ("model", "per_image_estimate", "spending_limit"):
+        for k in ("model", "per_image_estimate", "spending_limit", "text_model", "per_story_estimate"):
             if k in b:
                 v = b[k]
-                if k in ("per_image_estimate", "spending_limit") and v not in (None, ""):
+                if k in ("per_image_estimate", "spending_limit", "per_story_estimate") and v not in (None, ""):
                     from decimal import Decimal
                     if Decimal(str(v)) < 0:
                         raise ValueError(f"{k} must be ≥ 0")

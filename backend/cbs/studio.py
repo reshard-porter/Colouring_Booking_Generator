@@ -53,6 +53,8 @@ DEFAULT_SPEC = {
     "illustration_count": 40,
     "intro_pages": 4,
     "blank_backs": True,
+    "facing_text": False,   # story text on the left page facing each illustration
+    "story_words": 400,     # target length of each story page
     "cover_type": "color",
     "cover_finish": "matte",
     "marketplace": "Amazon.com",
@@ -308,7 +310,9 @@ class Studio:
             resolve_config(sp)
         except UnsupportedConfiguration as e:
             raise ValueError(str(e))
-        geometry_keys = {"trim", "paper", "interior_bleed", "safe_margin_in", "blank_backs", "binding"}
+        if not 50 <= int(sp.get("story_words") or 400) <= 900:
+            raise ValueError("Story length must be between 50 and 900 words per page.")
+        geometry_keys = {"trim", "paper", "interior_bleed", "safe_margin_in", "blank_backs", "binding", "facing_text"}
         changed = any(old.get(k) != sp.get(k) for k in geometry_keys)
         self.db.x("UPDATE book_specs SET data=?, updated_at=? WHERE project_id=?", (jdump(sp), now_iso(), pid))
         self.touch(pid, layout_changed=changed)
@@ -962,13 +966,13 @@ class Studio:
 
     # ------------------------------------------------------------------ backup / portable project
     PORTABLE_TABLES = ["projects", "book_specs", "style_guides", "listings", "scenes", "assets", "asset_versions",
-                       "pages", "page_elements", "cover_layouts"]
+                       "pages", "page_elements", "cover_layouts", "page_stories"]
 
     def export_project_archive(self, pid) -> bytes:
         self.project_row(pid)
         rows: dict[str, list[dict]] = {}
         rows["projects"] = [dict(r) for r in self.db.q("SELECT * FROM projects WHERE id=?", (pid,))]
-        for t in ("book_specs", "style_guides", "listings", "scenes", "assets", "pages", "cover_layouts"):
+        for t in ("book_specs", "style_guides", "listings", "scenes", "assets", "pages", "cover_layouts", "page_stories"):
             rows[t] = [dict(r) for r in self.db.q(f"SELECT * FROM {t} WHERE project_id=?", (pid,))]
         rows["asset_versions"] = [dict(r) for r in self.db.q(
             "SELECT v.* FROM asset_versions v JOIN assets a ON a.id=v.asset_id WHERE a.project_id=? ORDER BY v.version_no", (pid,))]

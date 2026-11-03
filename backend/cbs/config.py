@@ -8,7 +8,7 @@ from pathlib import Path
 PACKAGE_DIR = Path(__file__).resolve().parent
 FONT_DIR = PACKAGE_DIR / "assets" / "fonts"
 PROFILE_DIR = PACKAGE_DIR / "profiles"
-APP_VERSION = "0.5.1"
+APP_VERSION = "0.6.0"
 
 
 def default_data_dir() -> Path:

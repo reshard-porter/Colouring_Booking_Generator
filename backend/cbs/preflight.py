@@ -22,6 +22,43 @@ class Findings:
                            "page_id": page_id, "page_number": page_number, "detail": detail})
 
 
+def _story_checks(F, snap, cfg, n):
+    """Story layout: each picture is a right-hand page with its own story on the left-hand page facing it."""
+    from .render import layout_story
+    from .stories import word_count
+    from .units import in_to_pt
+    pages = snap["assembly"]["pages"]
+    target = int(snap["spec"].get("story_words") or 400)
+    empty, short, too_long = [], [], []
+    for p in pages:
+        if p["kind"] == "illustration":
+            prev = pages[p["number"] - 2] if p["number"] >= 2 else None
+            if p["number"] % 2 == 0 or not prev or prev["kind"] != "story" or prev.get("story_for") != p["page_id"]:
+                F.add("error", "story_layout_rule", "Picture is not a right-hand page with its story on the facing left-hand page.",
+                      p["page_id"], p["number"])
+        if p["kind"] == "story":
+            st = p.get("story") or {}
+            text = (st.get("text") or "").strip()
+            if not text:
+                empty.append(p["number"])
+                continue
+            if word_count(text) < target * 0.9:
+                short.append(p["number"])
+            geo = page_geometry(cfg, p["number"], max(n, 24))
+            if layout_story(text, st.get("title", ""), in_to_pt(geo.safe.w), in_to_pt(geo.safe.h)) is None:
+                too_long.append(p["number"])
+                F.add("error", "story_too_long", "This story doesn't fit on the page even at 10 pt. Shorten it.", p["story_for"], p["number"])
+    if empty:
+        F.add("warning", "story_empty", f"{len(empty)} story page(s) have no text and will print blank (pages {', '.join(map(str, empty[:15]))}"
+              f"{'…' if len(empty) > 15 else ''}). Write them on ✎ Page descriptions.")
+    if short:
+        F.add("heuristic", "story_short", f"{len(short)} story page(s) are shorter than your {target}-word target "
+              f"(pages {', '.join(map(str, short[:15]))}{'…' if len(short) > 15 else ''}).")
+    if any((p.get("story") or {}).get("ai") for p in pages if p["kind"] == "story"):
+        F.add("review", "story_ai_text", "Some story text was written by AI: read every page, and answer KDP's question about "
+              "AI-generated text with “yes” (the Listing page is already set to AI-generated).")
+
+
 def run(studio, snap: dict) -> dict:
     F = Findings()
     cfg = PrintConfig(**snap["config"])
@@ -40,7 +77,9 @@ def run(studio, snap: dict) -> dict:
         F.add("error", "odd_page_count", "Interior page count is odd.")
     for note in asm.get("parity_notes", []):
         F.add("warning", "parity_correction", note)
-    if spec.get("blank_backs", True):
+    if spec.get("facing_text"):
+        _story_checks(F, snap, cfg, n)
+    elif spec.get("blank_backs", True):
         for p in asm["pages"]:
             if p["kind"] == "illustration":
                 nxt = asm["pages"][p["number"]] if p["number"] < n else None
@@ -59,7 +98,7 @@ def run(studio, snap: dict) -> dict:
     dhashes: list[tuple[int, str, int, str]] = []
     unapproved = 0
     for p in asm["pages"]:
-        if p["kind"] == "blank":
+        if p["kind"] in ("blank", "story"):
             continue
         geo = page_geometry(cfg, p["number"], max(n, 24))
         els = p.get("elements", [])

@@ -3,6 +3,7 @@ import { api, img } from "../api";
 import { ProjectCtx } from "../App";
 import { Badge, ErrorBox, Loading, useAsync, useToast } from "../ui";
 import { IpWarning } from "./Heroes";
+import { StoryPages } from "./StoryPages";
 
 const MAX = 4000;
 
@@ -63,6 +64,8 @@ export default function PageDescriptions() {
         {(rows.data || []).map((r: any) => <DescRow key={r.page_id} row={r} pid={pid} onChanged={rows.reload} />)}
       </div>
       {rows.data && rows.data.length === 0 && <p className="muted">This book has no illustration pages yet. Add some in Pages & layout or plan the book in Create with AI.</p>}
+      <h2 className="section-h" id="stories">Story pages</h2>
+      <StoryPages pid={pid} onSpecChanged={refresh} />
     </div>
   );
 }

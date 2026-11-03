@@ -81,6 +81,18 @@ export default function Setup() {
               <span className="muted small block">Reduces marker bleed-through. Blank pages still count toward printing cost and spine width.</span>
             </span>
           </label>
+          <label className="check">
+            <input type="checkbox" checked={!!spec.facing_text} onChange={set("facing_text")} />
+            <span>
+              Story text on the left page, facing each picture
+              <span className="muted small block">Each picture stays on a right-hand page; the left page facing it holds a story describing it (write it on ✎ Page descriptions, or let AI write it). The story sits on the back of the previous picture instead of a blank page.</span>
+            </span>
+          </label>
+          {spec.facing_text && (
+            <label className="block small">Words per story page{" "}
+              <input type="number" min={50} max={900} step={10} value={spec.story_words ?? 400} onChange={set("story_words", Number)} style={{ width: "6rem" }} />
+            </label>
+          )}
           <Field label="Safe margin (inches)" help="Keep artwork and text at least this far from the page edges. KDP's own minimum depends on page count; the larger value is used.">
             <input type="number" step="0.05" min={0.25} max={1.5} value={spec.safe_margin_in} onChange={set("safe_margin_in", Number)} />
           </Field>

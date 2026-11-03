@@ -9,6 +9,8 @@
     "paper": "white",
     "bleed": "no",
     "blank_backs": "yes",
+    "facing_text": "no",
+    "story_words": "400",
     "style_preset": "Adult pen-and-ink",
     "cleanup": "fine",
     "list_price": "9.99"

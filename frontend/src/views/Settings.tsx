@@ -44,6 +44,14 @@ export default function Settings() {
             <Field label="Your per-image cost estimate" hint="From the provider's current price page. Leave blank if unknown; batches stay disabled until you set it.">
               <input type="number" step="0.001" min={0} value={s.per_image_estimate ?? ""} onChange={(e) => setS({ ...s, per_image_estimate: e.target.value })} />
             </Field>
+            <Field label="Story text model" hint="Used when AI writes the story pages (same OpenAI key).">
+              <select value={s.text_model || (ai.data.text_models || [])[0]?.id || ""} onChange={(e) => setS({ ...s, text_model: e.target.value })}>
+                {(ai.data.text_models || []).map((m: any) => <option key={m.id} value={m.id}>{m.label}</option>)}
+              </select>
+            </Field>
+            <Field label="Your per-story cost estimate" hint="Work it out from OpenAI's price page (a 400-word story is roughly 1,000–2,000 tokens in and out). Needed before writing many stories.">
+              <input type="number" step="0.001" min={0} value={s.per_story_estimate ?? ""} onChange={(e) => setS({ ...s, per_story_estimate: e.target.value })} />
+            </Field>
             <Field label="Spending limit for this installation"><input type="number" step="0.01" min={0} value={s.spending_limit ?? ""} onChange={(e) => setS({ ...s, spending_limit: e.target.value })} /></Field>
             <ErrorBox error={err} />
             <button className="btn btn-primary" onClick={saveAI}>Save AI settings</button>
